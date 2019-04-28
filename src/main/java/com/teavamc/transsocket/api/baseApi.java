@@ -24,7 +24,7 @@ public class baseApi {
     @GetMapping()
     public ApiRes base(){
         ApiRes res = new ApiRes();
-        res.put("data","welcome Request");
+        res.put("data","Request Succeed");
         return res;
     }
 }

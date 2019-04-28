@@ -10,13 +10,19 @@ spring:
     password: Qwer1234!@#$
     driver-class-name: com.mysql.cj.jdbc.Driver
 
+mybatis:
+#  实体类
+  type-aliases-package: com.teavamc.transsocket.domain
+#  mapper文件扫描位置
+  mapper-locations: classpath:mapper/*.xml
+
 #  页面
-  thymeleaf:
-    cache: false
-    prefix: classpath:/templates/
-    suffix: .html
-    mode: HTML5
-    encoding: UTF-8
+thymeleaf:
+  cache: false
+  prefix: classpath:/templates/
+  suffix: .html
+  mode: HTML5
+  encoding: UTF-8
 
 #分页器
 pagehelper:
@@ -27,5 +33,5 @@ pagehelper:
   returnPageInfo: check
 
 #log4j2
-logging:
-  config: classpath:log4j2.yml
+#logging:
+#  config: classpath:log4j2.yml

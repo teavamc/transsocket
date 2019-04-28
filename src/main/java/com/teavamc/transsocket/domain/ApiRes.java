@@ -11,7 +11,7 @@ import java.util.Date;
  **/
 public class ApiRes extends HashMap {
     private String time;
-    private String status;
+    private Integer status = 1;
     /**
         * 构造对象时候创建时间戳
         * @author 张超 teavamc
@@ -23,6 +23,6 @@ public class ApiRes extends HashMap {
         // new Date()为获取当前系统时间，也可使用当前时间戳
         String date = df.format(new Date());
         this.put("time",date);
-        this.put(status,1);
+        this.put("status",1);
     }
 }
