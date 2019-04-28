@@ -1,5 +1,6 @@
 package com.teavamc.transsocket.api;
 
+import com.teavamc.transsocket.domain.ApiRes;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -21,7 +22,9 @@ public class baseApi {
         * @return java.lang.String
         */
     @GetMapping()
-    public String base(){
-        return "welcome Request";
+    public ApiRes base(){
+        ApiRes res = new ApiRes();
+        res.put("data","welcome Request");
+        return res;
     }
 }
