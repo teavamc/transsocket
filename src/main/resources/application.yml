@@ -5,10 +5,10 @@ server:
 spring:
 #  持久层
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/database?useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://120.79.42.11:3306/transocket?useUnicode=true&characterEncoding=utf-8
     username: root
     password: Qwer1234!@#$
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
 #  页面
   thymeleaf:
     cache: false
@@ -16,10 +16,6 @@ spring:
     suffix: .html
     mode: HTML5
     encoding: UTF-8
-
-mybatis:
-  mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.itpengwei.pojo
 
 pagehelper:
   helperDialect: mysql
