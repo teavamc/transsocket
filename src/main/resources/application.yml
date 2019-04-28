@@ -9,6 +9,7 @@ spring:
     username: root
     password: Qwer1234!@#$
     driver-class-name: com.mysql.cj.jdbc.Driver
+
 #  页面
   thymeleaf:
     cache: false
@@ -17,9 +18,14 @@ spring:
     mode: HTML5
     encoding: UTF-8
 
+#分页器
 pagehelper:
   helperDialect: mysql
   reasonable: true
   supportMethodsArguments: true
   params: count=countSql
   returnPageInfo: check
+
+#log4j2
+logging:
+  config: classpath:log4j2.yml
