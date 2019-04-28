@@ -1,9 +1,29 @@
+#服务配置
 server:
   port: 8082
 
 spring:
+#  持久层
   datasource:
-    name: test
-    url: jdbc:mysql://127.0.0.1:3306/database
+    url: jdbc:mysql://127.0.0.1:3306/database?useUnicode=true&characterEncoding=utf-8
     username: root
-    password: q1w2e3
+    password: Qwer1234!@#$
+    driver-class-name: com.mysql.jdbc.Driver
+#  页面
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.itpengwei.pojo
+
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+  returnPageInfo: check
