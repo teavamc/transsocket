@@ -32,6 +32,11 @@ pagehelper:
   params: count=countSql
   returnPageInfo: check
 
-#log4j2
-#logging:
-#  config: classpath:log4j2.yml
+#Netty配置
+n:
+  port: 5000
+  url: 127.0.0.1
+
+logging:
+  config: classpath:log4j2.xml
+
