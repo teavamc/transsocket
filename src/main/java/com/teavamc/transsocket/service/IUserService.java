@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * @author 张超 teavamc
- * @Description:TODO
+ * @Description:T user业务接口
  * @ClassName IUserService
  * @date 2019/4/29 21:40
  **/

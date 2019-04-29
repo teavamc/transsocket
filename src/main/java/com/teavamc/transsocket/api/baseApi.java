@@ -34,6 +34,13 @@ public class baseApi {
         return res;
     }
 
+    /**
+        * 测试CRUD功能的接口
+        * @author 张超 teavamc
+        * @date 2019/4/29
+        * @param []
+        * @return com.teavamc.transsocket.domain.ApiRes
+        */
     @GetMapping(value = "/selectuser")
     public ApiRes selectUser(){
         return ApiMaker.putList(userService.selectUser());
