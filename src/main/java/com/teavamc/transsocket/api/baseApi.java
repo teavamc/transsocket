@@ -1,6 +1,9 @@
 package com.teavamc.transsocket.api;
 
 import com.teavamc.transsocket.domain.ApiRes;
+import com.teavamc.transsocket.service.IUserService;
+import com.teavamc.transsocket.utils.ApiMaker;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,8 +15,11 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2019/4/28 22:57
  **/
 @RestController
-@RequestMapping(value = "/api/base")
+@RequestMapping(value = "/api")
 public class baseApi {
+
+    @Autowired
+    private IUserService userService;
 
     /**
         * baseApi
@@ -21,10 +27,16 @@ public class baseApi {
         * @date 2019/4/28
         * @return java.lang.String
         */
-    @GetMapping()
+    @GetMapping(value = "/base")
     public ApiRes base(){
         ApiRes res = new ApiRes();
         res.put("data","Request Succeed");
         return res;
     }
+
+    @GetMapping(value = "/selectuser")
+    public ApiRes selectUser(){
+        return ApiMaker.putList(userService.selectUser());
+    }
+
 }

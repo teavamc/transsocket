@@ -6,9 +6,10 @@ spring:
 #  持久层
   datasource:
     url: jdbc:mysql://120.79.42.11:3306/transocket?useUnicode=true&characterEncoding=utf-8
-    username: root
+    username: teavamc
     password: Qwer1234!@#$
     driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
 
 mybatis:
 #  实体类
@@ -31,11 +32,6 @@ pagehelper:
   supportMethodsArguments: true
   params: count=countSql
   returnPageInfo: check
-
-#Netty配置
-n:
-  port: 5000
-  url: 127.0.0.1
 
 logging:
   config: classpath:log4j2.xml
