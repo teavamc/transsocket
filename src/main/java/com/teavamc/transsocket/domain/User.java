@@ -7,17 +7,17 @@ package com.teavamc.transsocket.domain;
  * @date 2019/4/29 21:36
  **/
 public class User {
-    private Integer Id;
+    private Integer id;
     private String username;
     private String nickname;
     private String gender;
 
     public Integer getId() {
-        return Id;
+        return id;
     }
 
     public void setId(Integer id) {
-        Id = id;
+        id = id;
     }
 
     public String getUsername() {
@@ -47,7 +47,7 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "Id=" + Id +
+                "id=" + id +
                 ", username='" + username + '\'' +
                 ", nickname='" + nickname + '\'' +
                 ", gender='" + gender + '\'' +

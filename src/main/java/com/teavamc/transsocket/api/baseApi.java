@@ -46,4 +46,19 @@ public class baseApi {
         return ApiMaker.putList(userService.selectUser());
     }
 
+    /*
+        * 通过REST方式实现Api端口向Client端发送开启风扇的指令
+        * @author 张超 teavamc
+        * @date 2019/5/2
+        * @param []
+        * @return com.teavamc.transsocket.domain.ApiRes
+        */
+    @GetMapping(value = "/fan")
+    public ApiRes makeFanRun(){
+        ApiRes res = new ApiRes();
+
+
+        return res;
+    }
+
 }
