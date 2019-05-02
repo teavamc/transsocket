@@ -1,0 +1,7 @@
+function baseOnload() {
+    
+}
+
+function controlFanRun() {
+    
+}
