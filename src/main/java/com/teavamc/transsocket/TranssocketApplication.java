@@ -1,6 +1,8 @@
 package com.teavamc.transsocket;
 
 import com.teavamc.transsocket.server.TcpServer;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,13 +10,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class TranssocketApplication implements CommandLineRunner {
 
+    private static Logger log = LogManager.getLogger(TranssocketApplication.class);
+
     public static void main(String[] args) {
         SpringApplication.run(TranssocketApplication.class, args);
         try {
             TcpServer.run();
-            System.out.println("启动TCP服务器...");
+            log.info("TCP服务器启动成功...");
         }catch (Exception e){
-            System.out.println("TCP服务器启动失败...");
+            log.info("TCP服务器启动失败...");
         }
         // TcpServer.shutdown();
     }
