@@ -20,8 +20,17 @@
     <p>测试前台的</p>
 
     <div class="row">
-        <div class="col-4">
-            <button type="button" class="btn btn-primary" onclick="controlFanRun()"> 开启风扇</button>
+        <div class="col-md-2">
+            <button type="button" class="btn btn-primary"
+                    onclick="connectWS(this.value)" value="01"> 开启风扇</button>
+        </div>
+        <div class="col-md-2">
+            <button type="button" class="btn btn-primary"
+                    onclick="connectWS(this.value)" value="02"> 关闭风扇</button>
+        </div>
+        <div class="col-md-2">
+            <button type="button" class="btn btn-primary"
+                    onclick="connectWS(this.value)" value="03"> 开启风扇摇头</button>
         </div>
     </div>
 

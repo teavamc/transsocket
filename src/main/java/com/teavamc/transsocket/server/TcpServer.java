@@ -14,6 +14,8 @@ import io.netty.handler.codec.LengthFieldPrepender;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 import io.netty.util.CharsetUtil;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 /**
  * @author 张超 teavamc
@@ -22,6 +24,8 @@ import io.netty.util.CharsetUtil;
  * @date 2019/5/2 15:04
  **/
 public class TcpServer {
+
+    private static Logger log = LogManager.getLogger(TcpServer.class);
 
     // 服务器地址端口
     private static final String IP = "127.0.0.1";
@@ -68,6 +72,7 @@ public class TcpServer {
                         4,
                         0,
                         4));
+
 //                Encode是对接收的信息进行解码
                 pipeline.addLast("frameEncoder", new LengthFieldPrepender(4));
                 pipeline.addLast("decoder", new StringDecoder(CharsetUtil.UTF_8));
@@ -75,11 +80,13 @@ public class TcpServer {
                 pipeline.addLast(new TcpServerHandler());
             }
         });
-//        异步绑定端口
+
+        //异步绑定端口
         b.bind(IP, PORT).sync();
-        System.out.println("TCP服务器已启动");
+        log.info("TCP Server端口：" + PORT);
     }
-    //            关闭端口
+
+    //关闭端口
     public static void shutdown() {
         workerGroup.shutdownGracefully();
         bossGroup.shutdownGracefully();
