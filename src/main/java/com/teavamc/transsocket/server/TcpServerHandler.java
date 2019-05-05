@@ -26,10 +26,10 @@ public class TcpServerHandler extends SimpleChannelInboundHandler<Object> {
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, Object msg) throws Exception {
         if (msg.equals("01")){
-            log.info("收到开启风扇指令：" + msg);
+            log.info("TCP Server 收到开启风扇的指令：" + msg);
             ctx.channel().writeAndFlush("单片机已经开启风扇");
         }else if(msg.equals("02")){
-            log.info("收到开启洒水指令：" + msg);
+            log.info("TCP Server 收到开启洒水的指令：" + msg);
             ctx.channel().writeAndFlush("单片机已经执行洒水");
         }else {
             log.info("不明指令：" + msg);

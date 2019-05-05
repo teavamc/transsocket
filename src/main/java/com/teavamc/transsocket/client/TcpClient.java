@@ -77,12 +77,12 @@ public class TcpClient {
         }
     }
 
-    public static void main(String[] args) throws Exception {
-        try {
-            TcpClient.sendMsg("01");
-
-        } catch (Exception e) {
-            log.info("main err:"+ e);
-        }
-    }
+//    public static void main(String[] args) throws Exception {
+//        try {
+//            TcpClient.sendMsg("01");
+//
+//        } catch (Exception e) {
+//            log.info("main err:"+ e);
+//        }
+//    }
 }

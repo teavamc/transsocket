@@ -1,5 +1,6 @@
 package com.teavamc.transsocket.websocket;
 
+import com.teavamc.transsocket.client.TcpClient;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.web.socket.CloseStatus;
@@ -37,6 +38,7 @@ public class WbHandler implements WebSocketHandler {
     @Override
     public void handleMessage(WebSocketSession conn, WebSocketMessage<?> message) throws Exception {
         log.info("日志信息："+message.getPayload());
+        sendCMDtoSocket(message.getPayload().toString());
     }
 
 
@@ -55,8 +57,14 @@ public class WbHandler implements WebSocketHandler {
 
 
 
-    private void sendCMDtoSocket(WebSocketSession conn,String msg){
+    private void sendCMDtoSocket(String msg){
+        try {
+            TcpClient.sendMsg(msg);
+            log.info("TCP Client发送消息" + msg);
 
+        } catch (Exception e) {
+            log.info("TCP Client发送消息失败:" + e);
+        }
     }
 
 

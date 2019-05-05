@@ -1,7 +1,10 @@
 package com.teavamc.transsocket.client;
 
+import com.teavamc.transsocket.server.TcpServerHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 /**
  * @author 张超 teavamc
@@ -11,9 +14,11 @@ import io.netty.channel.SimpleChannelInboundHandler;
  **/
 public class TcpClientHandler extends SimpleChannelInboundHandler<Object> {
 
+    private static Logger log = LogManager.getLogger(TcpServerHandler.class);
+
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, Object msg) throws Exception {
-        System.out.println("client接收到服务器返回的消息:" + msg);
+       log.info("TCP Client接收的消息:" + msg);
     }
 
 }
