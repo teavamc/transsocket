@@ -1,131 +1,134 @@
-[ DEBUG ] 2019-05-02 18:07:20 [ background-preinit:2863 ] [org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory(ResourceBundleMessageInterpolator.java:89)] Loaded expression factory via original TCCL
-[ DEBUG ] 2019-05-02 18:07:20 [ background-preinit:2877 ] [org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration(ValidatorFactoryImpl.java:578)] HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
-[ DEBUG ] 2019-05-02 18:07:20 [ background-preinit:2878 ] [org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration(ValidatorFactoryImpl.java:579)] HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
-[ DEBUG ] 2019-05-02 18:07:20 [ background-preinit:2879 ] [org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration(ValidatorFactoryImpl.java:580)] HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
-[ DEBUG ] 2019-05-02 18:07:20 [ background-preinit:2879 ] [org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration(ValidatorFactoryImpl.java:581)] HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
-[ DEBUG ] 2019-05-02 18:07:20 [ background-preinit:2880 ] [org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration(ValidatorFactoryImpl.java:582)] HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
-[ INFO ] 2019-05-02 18:07:20 [ restartedMain:3069 ] [org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)] Starting TranssocketApplication on TEAVAMC with PID 14624 (F:\transsocket\target\classes started by teavamc in F:\transsocket)
-[ DEBUG ] 2019-05-02 18:07:20 [ restartedMain:3070 ] [org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53)] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
-[ INFO ] 2019-05-02 18:07:20 [ restartedMain:3072 ] [org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675)] No active profile set, falling back to default profiles: default
-[ INFO ] 2019-05-02 18:07:21 [ restartedMain:3144 ] [org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:227)] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-[ INFO ] 2019-05-02 18:07:21 [ restartedMain:3145 ] [org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:227)] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-[ DEBUG ] 2019-05-02 18:07:21 [ restartedMain:3877 ] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-[ INFO ] 2019-05-02 18:07:21 [ restartedMain:3933 ] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:244)] Multiple Spring Data modules found, entering strict repository configuration mode!
-[ INFO ] 2019-05-02 18:07:21 [ restartedMain:3937 ] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126)] Bootstrapping Spring Data repositories in DEFAULT mode.
-[ INFO ] 2019-05-02 18:07:21 [ restartedMain:3962 ] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:182)] Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
-[ INFO ] 2019-05-02 18:07:22 [ restartedMain:4334 ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ccb1b716] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[ INFO ] 2019-05-02 18:07:22 [ restartedMain:4706 ] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90)] Tomcat initialized with port(s): 8082 (http)
-[ INFO ] 2019-05-02 18:07:22 [ restartedMain:4777 ] [org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)] Initializing ProtocolHandler ["http-nio-8082"]
-[ INFO ] 2019-05-02 18:07:22 [ restartedMain:4787 ] [org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)] Starting service [Tomcat]
-[ INFO ] 2019-05-02 18:07:22 [ restartedMain:4788 ] [org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)] Starting Servlet engine: [Apache Tomcat/9.0.17]
-[ INFO ] 2019-05-02 18:07:22 [ restartedMain:4909 ] [org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)] Initializing Spring embedded WebApplicationContext
-[ INFO ] 2019-05-02 18:07:22 [ restartedMain:4909 ] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296)] Root WebApplicationContext: initialization completed in 1763 ms
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5189 ] [org.hibernate.validator.internal.engine.resolver.TraversableResolvers.getDefault(TraversableResolvers.java:60)] Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5190 ] [org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory(ResourceBundleMessageInterpolator.java:89)] Loaded expression factory via original TCCL
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5193 ] [org.hibernate.validator.internal.engine.resolver.TraversableResolvers.getDefault(TraversableResolvers.java:60)] Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5194 ] [org.hibernate.validator.internal.engine.ConfigurationImpl.messageInterpolator(ConfigurationImpl.java:148)] Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5195 ] [org.hibernate.validator.internal.engine.ConfigurationImpl.constraintValidatorFactory(ConfigurationImpl.java:180)] Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5196 ] [org.hibernate.validator.internal.engine.ConfigurationImpl.parameterNameProvider(ConfigurationImpl.java:194)] Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5197 ] [org.hibernate.validator.internal.xml.config.ValidationXmlParser.getValidationXmlInputStream(ValidationXmlParser.java:120)] Trying to load META-INF/validation.xml for XML based Validator configuration.
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5197 ] [org.hibernate.validator.internal.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath(ResourceLoaderHelper.java:53)] Trying to load META-INF/validation.xml via user class loader
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5197 ] [org.hibernate.validator.internal.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath(ResourceLoaderHelper.java:60)] Trying to load META-INF/validation.xml via TCCL
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5198 ] [org.hibernate.validator.internal.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath(ResourceLoaderHelper.java:66)] Trying to load META-INF/validation.xml via Hibernate Validator's class loader
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5198 ] [org.hibernate.validator.internal.xml.config.ValidationXmlParser.getValidationXmlInputStream(ValidationXmlParser.java:127)] No META-INF/validation.xml found. Using annotation based configuration only.
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5202 ] [org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration(ValidatorFactoryImpl.java:578)] HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5202 ] [org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration(ValidatorFactoryImpl.java:579)] HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5202 ] [org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration(ValidatorFactoryImpl.java:580)] HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5203 ] [org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration(ValidatorFactoryImpl.java:581)] HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5203 ] [org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration(ValidatorFactoryImpl.java:582)] HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
-[ INFO ] 2019-05-02 18:07:23 [ restartedMain:5376 ] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)] Initializing ExecutorService 'applicationTaskExecutor'
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5580 ] [io.netty.util.internal.logging.InternalLoggerFactory.newDefaultFactory(InternalLoggerFactory.java:43)] Using SLF4J as the default logging framework
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5583 ] [io.lettuce.core.resource.DefaultClientResources.<clinit>(DefaultClientResources.java:109)] -Dio.netty.eventLoopThreads: 8
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5592 ] [io.lettuce.core.resource.DefaultEventLoopGroupProvider.createEventLoopGroup(DefaultEventLoopGroupProvider.java:138)] Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5613 ] [io.netty.util.ResourceLeakDetector.<clinit>(ResourceLeakDetector.java:129)] -Dio.netty.leakDetection.level: simple
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5613 ] [io.netty.util.ResourceLeakDetector.<clinit>(ResourceLeakDetector.java:130)] -Dio.netty.leakDetection.targetRecords: 4
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5616 ] [io.netty.util.internal.PlatformDependent.isWindows0(PlatformDependent.java:916)] Platform: Windows
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5618 ] [io.netty.util.internal.PlatformDependent0.explicitNoUnsafeCause0(PlatformDependent0.java:395)] -Dio.netty.noUnsafe: false
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5618 ] [io.netty.util.internal.PlatformDependent0.javaVersion0(PlatformDependent0.java:851)] Java version: 8
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5619 ] [io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:120)] sun.misc.Unsafe.theUnsafe: available
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5620 ] [io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:144)] sun.misc.Unsafe.copyMemory: available
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5620 ] [io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:182)] java.nio.Buffer.address: available
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5621 ] [io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:243)] direct buffer constructor: available
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5621 ] [io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:313)] java.nio.Bits.unaligned: available, true
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5622 ] [io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:378)] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5622 ] [io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:385)] java.nio.DirectByteBuffer.<init>(long, int): available
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5622 ] [io.netty.util.internal.PlatformDependent.unsafeUnavailabilityCause0(PlatformDependent.java:953)] sun.misc.Unsafe: available
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5623 ] [io.netty.util.internal.PlatformDependent.tmpdir0(PlatformDependent.java:1060)] -Dio.netty.tmpdir: C:\Users\teavamc\AppData\Local\Temp (java.io.tmpdir)
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5623 ] [io.netty.util.internal.PlatformDependent.bitMode0(PlatformDependent.java:1139)] -Dio.netty.bitMode: 64 (sun.arch.data.model)
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5624 ] [io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:158)] -Dio.netty.maxDirectMemory: 3799515136 bytes
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5624 ] [io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:165)] -Dio.netty.uninitializedArrayAllocationThreshold: -1
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5626 ] [io.netty.util.internal.CleanerJava6.<clinit>(CleanerJava6.java:92)] java.nio.ByteBuffer.cleaner(): available
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5626 ] [io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:185)] -Dio.netty.noPreferDirect: false
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5626 ] [io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory.newResourceLeakDetector(ResourceLeakDetectorFactory.java:202)] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1971b402
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5628 ] [io.netty.util.internal.PlatformDependent$Mpsc.<clinit>(PlatformDependent.java:821)] org.jctools-core.MpscChunkedArrayQueue: available
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5640 ] [reactor.util.Loggers$Slf4JLogger.debug(Loggers.java:249)] Using Slf4j logging framework
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5655 ] [reactor.util.Loggers$Slf4JLogger.debug(Loggers.java:249)] Starting UnsafeSupport init in Java 1.8
-[ TRACE ] 2019-05-02 18:07:23 [ restartedMain:5656 ] [reactor.util.Loggers$Slf4JLogger.trace(Loggers.java:229)] sun.misc.Unsafe.theUnsafe ok
-[ TRACE ] 2019-05-02 18:07:23 [ restartedMain:5656 ] [reactor.util.Loggers$Slf4JLogger.trace(Loggers.java:229)] sun.misc.Unsafe.copyMemory ok
-[ TRACE ] 2019-05-02 18:07:23 [ restartedMain:5657 ] [reactor.util.Loggers$Slf4JLogger.trace(Loggers.java:229)] java.nio.Buffer.address ok
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5657 ] [reactor.util.Loggers$Slf4JLogger.debug(Loggers.java:249)] Unsafe is available
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5665 ] [io.lettuce.core.resource.DefaultClientResources.<init>(DefaultClientResources.java:190)] LatencyUtils/HdrUtils are not available, metrics are disabled
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5712 ] [io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:128)] -Dio.netty.allocator.numHeapArenas: 16
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5713 ] [io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:129)] -Dio.netty.allocator.numDirectArenas: 16
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5713 ] [io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:131)] -Dio.netty.allocator.pageSize: 8192
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5713 ] [io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:136)] -Dio.netty.allocator.maxOrder: 11
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5713 ] [io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:140)] -Dio.netty.allocator.chunkSize: 16777216
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5714 ] [io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:141)] -Dio.netty.allocator.tinyCacheSize: 512
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5714 ] [io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:142)] -Dio.netty.allocator.smallCacheSize: 256
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5715 ] [io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:143)] -Dio.netty.allocator.normalCacheSize: 64
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5715 ] [io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:144)] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5715 ] [io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:145)] -Dio.netty.allocator.cacheTrimInterval: 8192
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5715 ] [io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:146)] -Dio.netty.allocator.useCacheForAllThreads: true
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5715 ] [io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:147)] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5719 ] [io.netty.util.internal.InternalThreadLocalMap.<clinit>(InternalThreadLocalMap.java:54)] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5720 ] [io.netty.util.internal.InternalThreadLocalMap.<clinit>(InternalThreadLocalMap.java:57)] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:5910 ] [reactor.util.Loggers$Slf4JLogger.debug(Loggers.java:249)] Enabling stacktrace debugging via onOperatorDebug
-[ INFO ] 2019-05-02 18:07:23 [ restartedMain:5967 ] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:57)] LiveReload server is running on port 35729
-[ INFO ] 2019-05-02 18:07:23 [ restartedMain:5994 ] [org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)] Starting ProtocolHandler ["http-nio-8082"]
-[ INFO ] 2019-05-02 18:07:23 [ restartedMain:6014 ] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)] Tomcat started on port(s): 8082 (http) with context path ''
-[ INFO ] 2019-05-02 18:07:23 [ restartedMain:6017 ] [org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59)] Started TranssocketApplication in 3.526 seconds (JVM running for 6.151)
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:6021 ] [io.netty.channel.MultithreadEventLoopGroup.<clinit>(MultithreadEventLoopGroup.java:44)] -Dio.netty.eventLoopThreads: 16
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:6025 ] [io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:105)] -Dio.netty.noKeySetOptimization: false
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:6025 ] [io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:106)] -Dio.netty.selectorAutoRebuildThreshold: 512
-[ TRACE ] 2019-05-02 18:07:23 [ restartedMain:6029 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5d2357c5
-[ TRACE ] 2019-05-02 18:07:23 [ restartedMain:6030 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@719551b3
-[ TRACE ] 2019-05-02 18:07:23 [ restartedMain:6031 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@752a26d8
-[ TRACE ] 2019-05-02 18:07:23 [ restartedMain:6032 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5989a682
-[ TRACE ] 2019-05-02 18:07:23 [ restartedMain:6033 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@655ef0a1
-[ TRACE ] 2019-05-02 18:07:23 [ restartedMain:6034 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3e1d3d70
-[ TRACE ] 2019-05-02 18:07:23 [ restartedMain:6035 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1a25d08d
-[ TRACE ] 2019-05-02 18:07:23 [ restartedMain:6036 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@e8cc8fd
-[ TRACE ] 2019-05-02 18:07:23 [ restartedMain:6037 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1c45fa75
-[ TRACE ] 2019-05-02 18:07:23 [ restartedMain:6038 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4be4a230
-[ TRACE ] 2019-05-02 18:07:23 [ restartedMain:6039 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7ff1a279
-[ TRACE ] 2019-05-02 18:07:23 [ restartedMain:6040 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@17d2465a
-[ TRACE ] 2019-05-02 18:07:23 [ restartedMain:6041 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@24f79087
-[ TRACE ] 2019-05-02 18:07:23 [ restartedMain:6042 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4aec430b
-[ TRACE ] 2019-05-02 18:07:23 [ restartedMain:6043 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@38fcd245
-[ TRACE ] 2019-05-02 18:07:23 [ restartedMain:6043 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3d19a396
-[ TRACE ] 2019-05-02 18:07:23 [ restartedMain:6044 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@661cdc88
-[ TRACE ] 2019-05-02 18:07:23 [ restartedMain:6045 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@70403c39
-[ TRACE ] 2019-05-02 18:07:23 [ restartedMain:6046 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5b24f604
-[ TRACE ] 2019-05-02 18:07:23 [ restartedMain:6047 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@22ad8f3e
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:6064 ] [io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:79)] -Dio.netty.processId: 14624 (auto-detected)
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:6067 ] [io.netty.util.NetUtil.<clinit>(NetUtil.java:139)] -Djava.net.preferIPv4Stack: false
-[ DEBUG ] 2019-05-02 18:07:23 [ restartedMain:6067 ] [io.netty.util.NetUtil.<clinit>(NetUtil.java:140)] -Djava.net.preferIPv6Addresses: false
-[ DEBUG ] 2019-05-02 18:07:24 [ restartedMain:6325 ] [io.netty.util.NetUtil.<clinit>(NetUtil.java:224)] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-[ DEBUG ] 2019-05-02 18:07:24 [ restartedMain:6326 ] [io.netty.util.NetUtil$1.run(NetUtil.java:289)] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-[ DEBUG ] 2019-05-02 18:07:24 [ restartedMain:6664 ] [io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:101)] -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
-[ DEBUG ] 2019-05-02 18:07:24 [ restartedMain:6712 ] [io.netty.buffer.ByteBufUtil.<clinit>(ByteBufUtil.java:84)] -Dio.netty.allocator.type: pooled
-[ DEBUG ] 2019-05-02 18:07:24 [ restartedMain:6713 ] [io.netty.buffer.ByteBufUtil.<clinit>(ByteBufUtil.java:93)] -Dio.netty.threadLocalDirectBufferSize: 0
-[ DEBUG ] 2019-05-02 18:07:24 [ restartedMain:6713 ] [io.netty.buffer.ByteBufUtil.<clinit>(ByteBufUtil.java:96)] -Dio.netty.maxThreadLocalCharBufferSize: 16384
-[ INFO ] 2019-05-02 18:07:36 [ http-nio-8082-exec-1:18608 ] [org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)] Initializing Spring DispatcherServlet 'dispatcherServlet'
-[ INFO ] 2019-05-02 18:07:36 [ http-nio-8082-exec-1:18609 ] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524)] Initializing Servlet 'dispatcherServlet'
-[ INFO ] 2019-05-02 18:07:36 [ http-nio-8082-exec-1:18618 ] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546)] Completed initialization in 9 ms
-[ TRACE ] 2019-05-02 18:07:36 [ http-nio-8082-exec-1:18659 ] [org.thymeleaf.spring5.view.ThymeleafViewResolver.createView(ThymeleafViewResolver.java:794)] [THYMELEAF] View /base/baseIndex will be handled by ThymeleafViewResolver and a ThymeleafView instance will be created for it
-[ DEBUG ] 2019-05-02 18:07:36 [ http-nio-8082-exec-1:18671 ] [org.thymeleaf.TemplateEngine.initialize(TemplateEngine.java:325)] [THYMELEAF] INITIALIZING TEMPLATE ENGINE
-[ TRACE ] 2019-05-02 18:07:36 [ http-nio-8082-exec-1:18881 ] [org.thymeleaf.cache.StandardCache.<init>(StandardCache.java:129)] [THYMELEAF][CACHE_INITIALIZE] Initializing cache TEMPLATE_CACHE. Max size: 200. Soft references are used.
-[ TRACE ] 2019-05-02 18:07:36 [ http-nio-8082-exec-1:18926 ] [org.thymeleaf.ConfigurationPrinterHelper.printConfiguration(ConfigurationPrinterHelper.java:156)] Initializing Thymeleaf Template engine configuration...
+[ DEBUG ] 2019-05-05 17:09:07 [ background-preinit:2612 ] [org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory(ResourceBundleMessageInterpolator.java:89)] Loaded expression factory via original TCCL
+[ DEBUG ] 2019-05-05 17:09:07 [ background-preinit:2633 ] [org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration(ValidatorFactoryImpl.java:578)] HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+[ DEBUG ] 2019-05-05 17:09:07 [ background-preinit:2634 ] [org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration(ValidatorFactoryImpl.java:579)] HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+[ DEBUG ] 2019-05-05 17:09:07 [ background-preinit:2634 ] [org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration(ValidatorFactoryImpl.java:580)] HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+[ DEBUG ] 2019-05-05 17:09:07 [ background-preinit:2635 ] [org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration(ValidatorFactoryImpl.java:581)] HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+[ DEBUG ] 2019-05-05 17:09:07 [ background-preinit:2635 ] [org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration(ValidatorFactoryImpl.java:582)] HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+[ INFO ] 2019-05-05 17:09:07 [ restartedMain:2828 ] [org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50)] Starting TranssocketApplication on TEAVAMC with PID 31752 (F:\transsocket\target\classes started by teavamc in F:\transsocket)
+[ DEBUG ] 2019-05-05 17:09:07 [ restartedMain:2829 ] [org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53)] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+[ INFO ] 2019-05-05 17:09:07 [ restartedMain:2831 ] [org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:675)] No active profile set, falling back to default profiles: default
+[ INFO ] 2019-05-05 17:09:07 [ restartedMain:2887 ] [org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:227)] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[ INFO ] 2019-05-05 17:09:07 [ restartedMain:2888 ] [org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:227)] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[ DEBUG ] 2019-05-05 17:09:08 [ restartedMain:3672 ] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105)] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[ INFO ] 2019-05-05 17:09:08 [ restartedMain:3736 ] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:244)] Multiple Spring Data modules found, entering strict repository configuration mode!
+[ INFO ] 2019-05-05 17:09:08 [ restartedMain:3742 ] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126)] Bootstrapping Spring Data repositories in DEFAULT mode.
+[ INFO ] 2019-05-05 17:09:08 [ restartedMain:3774 ] [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:182)] Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+[ INFO ] 2019-05-05 17:09:08 [ restartedMain:4162 ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fb358c12] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[ INFO ] 2019-05-05 17:09:09 [ restartedMain:4717 ] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:90)] Tomcat initialized with port(s): 80 (http)
+[ INFO ] 2019-05-05 17:09:09 [ restartedMain:4816 ] [org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)] Initializing ProtocolHandler ["http-nio-80"]
+[ INFO ] 2019-05-05 17:09:09 [ restartedMain:4834 ] [org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)] Starting service [Tomcat]
+[ INFO ] 2019-05-05 17:09:09 [ restartedMain:4836 ] [org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)] Starting Servlet engine: [Apache Tomcat/9.0.17]
+[ INFO ] 2019-05-05 17:09:09 [ restartedMain:5027 ] [org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)] Initializing Spring embedded WebApplicationContext
+[ INFO ] 2019-05-05 17:09:09 [ restartedMain:5027 ] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:296)] Root WebApplicationContext: initialization completed in 2138 ms
+[ INFO ] 2019-05-05 17:09:09 [ restartedMain:5430 ] [com.teavamc.transsocket.config.WebSocketConfig.registerWebSocketHandlers(WebSocketConfig.java:35)] WebSocket已注册，WB地址：/wb/test
+[ DEBUG ] 2019-05-05 17:09:09 [ restartedMain:5456 ] [org.hibernate.validator.internal.engine.resolver.TraversableResolvers.getDefault(TraversableResolvers.java:60)] Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[ DEBUG ] 2019-05-05 17:09:09 [ restartedMain:5457 ] [org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory(ResourceBundleMessageInterpolator.java:89)] Loaded expression factory via original TCCL
+[ DEBUG ] 2019-05-05 17:09:09 [ restartedMain:5460 ] [org.hibernate.validator.internal.engine.resolver.TraversableResolvers.getDefault(TraversableResolvers.java:60)] Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[ DEBUG ] 2019-05-05 17:09:09 [ restartedMain:5461 ] [org.hibernate.validator.internal.engine.ConfigurationImpl.messageInterpolator(ConfigurationImpl.java:148)] Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+[ DEBUG ] 2019-05-05 17:09:09 [ restartedMain:5462 ] [org.hibernate.validator.internal.engine.ConfigurationImpl.constraintValidatorFactory(ConfigurationImpl.java:180)] Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+[ DEBUG ] 2019-05-05 17:09:09 [ restartedMain:5462 ] [org.hibernate.validator.internal.engine.ConfigurationImpl.parameterNameProvider(ConfigurationImpl.java:194)] Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+[ DEBUG ] 2019-05-05 17:09:09 [ restartedMain:5463 ] [org.hibernate.validator.internal.xml.config.ValidationXmlParser.getValidationXmlInputStream(ValidationXmlParser.java:120)] Trying to load META-INF/validation.xml for XML based Validator configuration.
+[ DEBUG ] 2019-05-05 17:09:09 [ restartedMain:5464 ] [org.hibernate.validator.internal.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath(ResourceLoaderHelper.java:53)] Trying to load META-INF/validation.xml via user class loader
+[ DEBUG ] 2019-05-05 17:09:09 [ restartedMain:5464 ] [org.hibernate.validator.internal.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath(ResourceLoaderHelper.java:60)] Trying to load META-INF/validation.xml via TCCL
+[ DEBUG ] 2019-05-05 17:09:09 [ restartedMain:5465 ] [org.hibernate.validator.internal.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath(ResourceLoaderHelper.java:66)] Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[ DEBUG ] 2019-05-05 17:09:09 [ restartedMain:5465 ] [org.hibernate.validator.internal.xml.config.ValidationXmlParser.getValidationXmlInputStream(ValidationXmlParser.java:127)] No META-INF/validation.xml found. Using annotation based configuration only.
+[ DEBUG ] 2019-05-05 17:09:09 [ restartedMain:5470 ] [org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration(ValidatorFactoryImpl.java:578)] HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+[ DEBUG ] 2019-05-05 17:09:09 [ restartedMain:5470 ] [org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration(ValidatorFactoryImpl.java:579)] HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+[ DEBUG ] 2019-05-05 17:09:09 [ restartedMain:5471 ] [org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration(ValidatorFactoryImpl.java:580)] HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+[ DEBUG ] 2019-05-05 17:09:09 [ restartedMain:5471 ] [org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration(ValidatorFactoryImpl.java:581)] HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+[ DEBUG ] 2019-05-05 17:09:09 [ restartedMain:5471 ] [org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration(ValidatorFactoryImpl.java:582)] HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+[ INFO ] 2019-05-05 17:09:10 [ restartedMain:5646 ] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)] Initializing ExecutorService 'applicationTaskExecutor'
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5903 ] [io.netty.util.internal.logging.InternalLoggerFactory.newDefaultFactory(InternalLoggerFactory.java:43)] Using SLF4J as the default logging framework
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5908 ] [io.lettuce.core.resource.DefaultClientResources.<clinit>(DefaultClientResources.java:109)] -Dio.netty.eventLoopThreads: 8
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5918 ] [io.lettuce.core.resource.DefaultEventLoopGroupProvider.createEventLoopGroup(DefaultEventLoopGroupProvider.java:138)] Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5944 ] [io.netty.util.ResourceLeakDetector.<clinit>(ResourceLeakDetector.java:129)] -Dio.netty.leakDetection.level: simple
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5944 ] [io.netty.util.ResourceLeakDetector.<clinit>(ResourceLeakDetector.java:130)] -Dio.netty.leakDetection.targetRecords: 4
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5948 ] [io.netty.util.internal.PlatformDependent.isWindows0(PlatformDependent.java:916)] Platform: Windows
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5950 ] [io.netty.util.internal.PlatformDependent0.explicitNoUnsafeCause0(PlatformDependent0.java:395)] -Dio.netty.noUnsafe: false
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5950 ] [io.netty.util.internal.PlatformDependent0.javaVersion0(PlatformDependent0.java:851)] Java version: 8
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5951 ] [io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:120)] sun.misc.Unsafe.theUnsafe: available
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5952 ] [io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:144)] sun.misc.Unsafe.copyMemory: available
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5953 ] [io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:182)] java.nio.Buffer.address: available
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5953 ] [io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:243)] direct buffer constructor: available
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5954 ] [io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:313)] java.nio.Bits.unaligned: available, true
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5955 ] [io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:378)] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5955 ] [io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:385)] java.nio.DirectByteBuffer.<init>(long, int): available
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5955 ] [io.netty.util.internal.PlatformDependent.unsafeUnavailabilityCause0(PlatformDependent.java:953)] sun.misc.Unsafe: available
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5956 ] [io.netty.util.internal.PlatformDependent.tmpdir0(PlatformDependent.java:1060)] -Dio.netty.tmpdir: C:\Users\teavamc\AppData\Local\Temp (java.io.tmpdir)
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5956 ] [io.netty.util.internal.PlatformDependent.bitMode0(PlatformDependent.java:1139)] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5958 ] [io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:158)] -Dio.netty.maxDirectMemory: 3799515136 bytes
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5958 ] [io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:165)] -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5959 ] [io.netty.util.internal.CleanerJava6.<clinit>(CleanerJava6.java:92)] java.nio.ByteBuffer.cleaner(): available
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5960 ] [io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:185)] -Dio.netty.noPreferDirect: false
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5960 ] [io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory.newResourceLeakDetector(ResourceLeakDetectorFactory.java:202)] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@513e2743
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5962 ] [io.netty.util.internal.PlatformDependent$Mpsc.<clinit>(PlatformDependent.java:821)] org.jctools-core.MpscChunkedArrayQueue: available
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5975 ] [reactor.util.Loggers$Slf4JLogger.debug(Loggers.java:249)] Using Slf4j logging framework
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5993 ] [reactor.util.Loggers$Slf4JLogger.debug(Loggers.java:249)] Starting UnsafeSupport init in Java 1.8
+[ TRACE ] 2019-05-05 17:09:10 [ restartedMain:5993 ] [reactor.util.Loggers$Slf4JLogger.trace(Loggers.java:229)] sun.misc.Unsafe.theUnsafe ok
+[ TRACE ] 2019-05-05 17:09:10 [ restartedMain:5993 ] [reactor.util.Loggers$Slf4JLogger.trace(Loggers.java:229)] sun.misc.Unsafe.copyMemory ok
+[ TRACE ] 2019-05-05 17:09:10 [ restartedMain:5994 ] [reactor.util.Loggers$Slf4JLogger.trace(Loggers.java:229)] java.nio.Buffer.address ok
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:5994 ] [reactor.util.Loggers$Slf4JLogger.debug(Loggers.java:249)] Unsafe is available
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:6001 ] [io.lettuce.core.resource.DefaultClientResources.<init>(DefaultClientResources.java:190)] LatencyUtils/HdrUtils are not available, metrics are disabled
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:6046 ] [io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:128)] -Dio.netty.allocator.numHeapArenas: 16
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:6046 ] [io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:129)] -Dio.netty.allocator.numDirectArenas: 16
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:6046 ] [io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:131)] -Dio.netty.allocator.pageSize: 8192
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:6046 ] [io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:136)] -Dio.netty.allocator.maxOrder: 11
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:6047 ] [io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:140)] -Dio.netty.allocator.chunkSize: 16777216
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:6047 ] [io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:141)] -Dio.netty.allocator.tinyCacheSize: 512
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:6047 ] [io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:142)] -Dio.netty.allocator.smallCacheSize: 256
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:6048 ] [io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:143)] -Dio.netty.allocator.normalCacheSize: 64
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:6048 ] [io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:144)] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:6048 ] [io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:145)] -Dio.netty.allocator.cacheTrimInterval: 8192
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:6048 ] [io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:146)] -Dio.netty.allocator.useCacheForAllThreads: true
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:6048 ] [io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:147)] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:6052 ] [io.netty.util.internal.InternalThreadLocalMap.<clinit>(InternalThreadLocalMap.java:54)] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:6053 ] [io.netty.util.internal.InternalThreadLocalMap.<clinit>(InternalThreadLocalMap.java:57)] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:6244 ] [reactor.util.Loggers$Slf4JLogger.debug(Loggers.java:249)] Enabling stacktrace debugging via onOperatorDebug
+[ INFO ] 2019-05-05 17:09:10 [ restartedMain:6323 ] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:57)] LiveReload server is running on port 35729
+[ INFO ] 2019-05-05 17:09:10 [ restartedMain:6361 ] [org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)] Starting ProtocolHandler ["http-nio-80"]
+[ INFO ] 2019-05-05 17:09:10 [ restartedMain:6386 ] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)] Tomcat started on port(s): 80 (http) with context path ''
+[ INFO ] 2019-05-05 17:09:10 [ restartedMain:6390 ] [org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59)] Started TranssocketApplication in 4.187 seconds (JVM running for 6.495)
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:6396 ] [io.netty.channel.MultithreadEventLoopGroup.<clinit>(MultithreadEventLoopGroup.java:44)] -Dio.netty.eventLoopThreads: 16
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:6400 ] [io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:105)] -Dio.netty.noKeySetOptimization: false
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:6400 ] [io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:106)] -Dio.netty.selectorAutoRebuildThreshold: 512
+[ TRACE ] 2019-05-05 17:09:10 [ restartedMain:6404 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@30f45fe1
+[ TRACE ] 2019-05-05 17:09:10 [ restartedMain:6406 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@667ac75e
+[ TRACE ] 2019-05-05 17:09:10 [ restartedMain:6407 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@68a98447
+[ TRACE ] 2019-05-05 17:09:10 [ restartedMain:6408 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5c414427
+[ TRACE ] 2019-05-05 17:09:10 [ restartedMain:6409 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@30a07a7f
+[ TRACE ] 2019-05-05 17:09:10 [ restartedMain:6410 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@501b02
+[ TRACE ] 2019-05-05 17:09:10 [ restartedMain:6411 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@247f2cf3
+[ TRACE ] 2019-05-05 17:09:10 [ restartedMain:6412 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@72492427
+[ TRACE ] 2019-05-05 17:09:10 [ restartedMain:6413 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4189cb93
+[ TRACE ] 2019-05-05 17:09:10 [ restartedMain:6414 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@418140ab
+[ TRACE ] 2019-05-05 17:09:10 [ restartedMain:6415 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1cc4f4dc
+[ TRACE ] 2019-05-05 17:09:10 [ restartedMain:6416 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2717937f
+[ TRACE ] 2019-05-05 17:09:10 [ restartedMain:6417 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@28cd115d
+[ TRACE ] 2019-05-05 17:09:10 [ restartedMain:6418 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@638288f7
+[ TRACE ] 2019-05-05 17:09:10 [ restartedMain:6419 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@585be24f
+[ TRACE ] 2019-05-05 17:09:10 [ restartedMain:6420 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@434c0e50
+[ TRACE ] 2019-05-05 17:09:10 [ restartedMain:6421 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6ce9c717
+[ TRACE ] 2019-05-05 17:09:10 [ restartedMain:6422 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@63def210
+[ TRACE ] 2019-05-05 17:09:10 [ restartedMain:6423 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@720e9318
+[ TRACE ] 2019-05-05 17:09:10 [ restartedMain:6424 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5d5e9ee
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:6444 ] [io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:79)] -Dio.netty.processId: 31752 (auto-detected)
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:6447 ] [io.netty.util.NetUtil.<clinit>(NetUtil.java:139)] -Djava.net.preferIPv4Stack: false
+[ DEBUG ] 2019-05-05 17:09:10 [ restartedMain:6448 ] [io.netty.util.NetUtil.<clinit>(NetUtil.java:140)] -Djava.net.preferIPv6Addresses: false
+[ DEBUG ] 2019-05-05 17:09:11 [ restartedMain:6738 ] [io.netty.util.NetUtil.<clinit>(NetUtil.java:224)] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[ DEBUG ] 2019-05-05 17:09:11 [ restartedMain:6740 ] [io.netty.util.NetUtil$1.run(NetUtil.java:289)] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[ DEBUG ] 2019-05-05 17:09:11 [ restartedMain:7085 ] [io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:101)] -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+[ DEBUG ] 2019-05-05 17:09:11 [ restartedMain:7118 ] [io.netty.buffer.ByteBufUtil.<clinit>(ByteBufUtil.java:84)] -Dio.netty.allocator.type: pooled
+[ DEBUG ] 2019-05-05 17:09:11 [ restartedMain:7119 ] [io.netty.buffer.ByteBufUtil.<clinit>(ByteBufUtil.java:93)] -Dio.netty.threadLocalDirectBufferSize: 0
+[ DEBUG ] 2019-05-05 17:09:11 [ restartedMain:7120 ] [io.netty.buffer.ByteBufUtil.<clinit>(ByteBufUtil.java:96)] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[ INFO ] 2019-05-05 17:09:11 [ restartedMain:7145 ] [com.teavamc.transsocket.server.TcpServer.run(TcpServer.java:86)] TCP Server端口：8888
+[ INFO ] 2019-05-05 17:09:11 [ restartedMain:7146 ] [com.teavamc.transsocket.TranssocketApplication.main(TranssocketApplication.java:19)] TCP服务器启动成功...
+[ INFO ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:37983 ] [org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[ INFO ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:37983 ] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:524)] Initializing Servlet 'dispatcherServlet'
+[ INFO ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:37990 ] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:546)] Completed initialization in 7 ms
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38020 ] [org.thymeleaf.spring5.view.ThymeleafViewResolver.createView(ThymeleafViewResolver.java:794)] [THYMELEAF] View /base/baseIndex will be handled by ThymeleafViewResolver and a ThymeleafView instance will be created for it
+[ DEBUG ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38031 ] [org.thymeleaf.TemplateEngine.initialize(TemplateEngine.java:325)] [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38144 ] [org.thymeleaf.cache.StandardCache.<init>(StandardCache.java:129)] [THYMELEAF][CACHE_INITIALIZE] Initializing cache TEMPLATE_CACHE. Max size: 200. Soft references are used.
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38169 ] [org.thymeleaf.ConfigurationPrinterHelper.printConfiguration(ConfigurationPrinterHelper.java:156)] Initializing Thymeleaf Template engine configuration...
 [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
 [THYMELEAF] * Thymeleaf version: 3.0.11.RELEASE (built 2018-10-28T22:35:28+0000)
 [THYMELEAF] * Cache Manager implementation: org.thymeleaf.cache.StandardCacheManager
@@ -159,198 +162,198 @@
 [THYMELEAF]             * [* {th:action,data-th-action}] [1000]: org.thymeleaf.spring5.processor.SpringActionTagProcessor
 [THYMELEAF]             * [* {th:href,data-th-href}] [1000]: org.thymeleaf.spring5.processor.SpringHrefTagProcessor
 [THYMELEAF]             * [* {th:src,data-th-src}] [1000]: org.thymeleaf.spring5.processor.SpringSrcTagProcessor
-[THYMELEAF]             * [* {th:hidden,data-th-hidden}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
-[THYMELEAF]             * [* {th:disabled,data-th-disabled}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
-[THYMELEAF]             * [* {th:selected,data-th-selected}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
-[THYMELEAF]             * [* {th:loop,data-th-loop}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
-[THYMELEAF]             * [* {th:readonly,data-th-readonly}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
-[THYMELEAF]             * [* {th:multiple,data-th-multiple}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
 [THYMELEAF]             * [* {th:autofocus,data-th-autofocus}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:loop,data-th-loop}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:open,data-th-open}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:novalidate,data-th-novalidate}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:selected,data-th-selected}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:autoplay,data-th-autoplay}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:ismap,data-th-ismap}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:disabled,data-th-disabled}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:async,data-th-async}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:controls,data-th-controls}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
 [THYMELEAF]             * [* {th:nowrap,data-th-nowrap}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
-[THYMELEAF]             * [* {th:seamless,data-th-seamless}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:declare,data-th-declare}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:checked,data-th-checked}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:readonly,data-th-readonly}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
 [THYMELEAF]             * [* {th:scoped,data-th-scoped}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
 [THYMELEAF]             * [* {th:default,data-th-default}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
-[THYMELEAF]             * [* {th:required,data-th-required}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
-[THYMELEAF]             * [* {th:defer,data-th-defer}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
-[THYMELEAF]             * [* {th:ismap,data-th-ismap}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
-[THYMELEAF]             * [* {th:checked,data-th-checked}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
-[THYMELEAF]             * [* {th:open,data-th-open}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
-[THYMELEAF]             * [* {th:controls,data-th-controls}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
-[THYMELEAF]             * [* {th:formnovalidate,data-th-formnovalidate}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
-[THYMELEAF]             * [* {th:novalidate,data-th-novalidate}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
 [THYMELEAF]             * [* {th:reversed,data-th-reversed}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
-[THYMELEAF]             * [* {th:async,data-th-async}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
-[THYMELEAF]             * [* {th:declare,data-th-declare}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:required,data-th-required}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:multiple,data-th-multiple}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:formnovalidate,data-th-formnovalidate}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:hidden,data-th-hidden}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:defer,data-th-defer}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
 [THYMELEAF]             * [* {th:pubdate,data-th-pubdate}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
-[THYMELEAF]             * [* {th:autoplay,data-th-autoplay}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
-[THYMELEAF]             * [* {th:ondragover,data-th-ondragover}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onloadstart,data-th-onloadstart}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:seamless,data-th-seamless}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
 [THYMELEAF]             * [* {th:onseeked,data-th-onseeked}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onwaiting,data-th-onwaiting}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onformchange,data-th-onformchange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onstalled,data-th-onstalled}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onscroll,data-th-onscroll}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onloadedmetadata,data-th-onloadedmetadata}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onerror,data-th-onerror}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onhashchange,data-th-onhashchange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onbeforeunload,data-th-onbeforeunload}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onratechange,data-th-onratechange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onforminput,data-th-onforminput}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onredo,data-th-onredo}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onsuspend,data-th-onsuspend}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onmouseout,data-th-onmouseout}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:ontimeupdate,data-th-ontimeupdate}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onshow,data-th-onshow}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onblur,data-th-onblur}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:ondragstart,data-th-ondragstart}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
 [THYMELEAF]             * [* {th:onloadeddata,data-th-onloadeddata}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onprogress,data-th-onprogress}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onchange,data-th-onchange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onunload,data-th-onunload}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onafterprint,data-th-onafterprint}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onfocus,data-th-onfocus}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onoffline,data-th-onoffline}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onselect,data-th-onselect}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onended,data-th-onended}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onmousedown,data-th-onmousedown}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onstorage,data-th-onstorage}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onpause,data-th-onpause}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onmouseover,data-th-onmouseover}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:ondragleave,data-th-ondragleave}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
 [THYMELEAF]             * [* {th:ondrop,data-th-ondrop}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onseeking,data-th-onseeking}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onabort,data-th-onabort}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onmousemove,data-th-onmousemove}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onload,data-th-onload}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:ondblclick,data-th-ondblclick}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onpopstate,data-th-onpopstate}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onmousewheel,data-th-onmousewheel}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onreset,data-th-onreset}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onreadystatechange,data-th-onreadystatechange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:oncanplaythrough,data-th-oncanplaythrough}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onsubmit,data-th-onsubmit}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:ondragenter,data-th-ondragenter}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onresize,data-th-onresize}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:ondurationchange,data-th-ondurationchange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onkeypress,data-th-onkeypress}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:oninvalid,data-th-oninvalid}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onemptied,data-th-onemptied}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onclick,data-th-onclick}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
 [THYMELEAF]             * [* {th:onkeydown,data-th-onkeydown}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onkeyup,data-th-onkeyup}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:oncontextmenu,data-th-oncontextmenu}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
 [THYMELEAF]             * [* {th:onundo,data-th-onundo}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:ondragend,data-th-ondragend}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onplay,data-th-onplay}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onmessage,data-th-onmessage}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onmouseup,data-th-onmouseup}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onplaying,data-th-onplaying}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:ononline,data-th-ononline}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:onbeforeprint,data-th-onbeforeprint}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
-[THYMELEAF]             * [* {th:oninput,data-th-oninput}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onredo,data-th-onredo}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragstart,data-th-ondragstart}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
 [THYMELEAF]             * [* {th:ondrag,data-th-ondrag}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmouseover,data-th-onmouseover}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:oninput,data-th-oninput}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmessage,data-th-onmessage}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onerror,data-th-onerror}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondblclick,data-th-ondblclick}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onsubmit,data-th-onsubmit}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ontimeupdate,data-th-ontimeupdate}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onbeforeprint,data-th-onbeforeprint}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
 [THYMELEAF]             * [* {th:oncanplay,data-th-oncanplay}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onunload,data-th-onunload}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:oncanplaythrough,data-th-oncanplaythrough}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onresize,data-th-onresize}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onratechange,data-th-onratechange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onabort,data-th-onabort}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onprogress,data-th-onprogress}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onkeypress,data-th-onkeypress}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onplaying,data-th-onplaying}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onemptied,data-th-onemptied}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
 [THYMELEAF]             * [* {th:onvolumechange,data-th-onvolumechange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onblur,data-th-onblur}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondurationchange,data-th-ondurationchange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onclick,data-th-onclick}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onpause,data-th-onpause}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:oninvalid,data-th-oninvalid}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmousedown,data-th-onmousedown}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onloadstart,data-th-onloadstart}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onkeyup,data-th-onkeyup}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onstorage,data-th-onstorage}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onhashchange,data-th-onhashchange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onoffline,data-th-onoffline}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onpopstate,data-th-onpopstate}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onforminput,data-th-onforminput}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ononline,data-th-ononline}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onfocus,data-th-onfocus}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragover,data-th-ondragover}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onsuspend,data-th-onsuspend}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onscroll,data-th-onscroll}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onselect,data-th-onselect}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onreset,data-th-onreset}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onloadedmetadata,data-th-onloadedmetadata}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onseeking,data-th-onseeking}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmousemove,data-th-onmousemove}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onplay,data-th-onplay}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onshow,data-th-onshow}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmouseout,data-th-onmouseout}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onreadystatechange,data-th-onreadystatechange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmousewheel,data-th-onmousewheel}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onwaiting,data-th-onwaiting}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragenter,data-th-ondragenter}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onformchange,data-th-onformchange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onchange,data-th-onchange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onbeforeunload,data-th-onbeforeunload}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragend,data-th-ondragend}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragleave,data-th-ondragleave}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onafterprint,data-th-onafterprint}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onstalled,data-th-onstalled}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmouseup,data-th-onmouseup}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onended,data-th-onended}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onload,data-th-onload}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:oncontextmenu,data-th-oncontextmenu}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
 [THYMELEAF]             * [* {th:inline,data-th-inline}] [1000]: org.thymeleaf.standard.processor.StandardInlineHTMLTagProcessor
-[THYMELEAF]             * [* {th:type,data-th-type}] [1000]: org.thymeleaf.standard.processor.StandardNonRemovableAttributeTagProcessor
 [THYMELEAF]             * [* {th:name,data-th-name}] [1000]: org.thymeleaf.standard.processor.StandardNonRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:standby,data-th-standby}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:frameborder,data-th-frameborder}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:vspace,data-th-vspace}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:rev,data-th-rev}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:enctype,data-th-enctype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:frame,data-th-frame}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:kind,data-th-kind}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:autocomplete,data-th-autocomplete}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:codebase,data-th-codebase}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:low,data-th-low}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:title,data-th-title}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:bgcolor,data-th-bgcolor}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:challenge,data-th-challenge}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:icon,data-th-icon}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:size,data-th-size}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:formaction,data-th-formaction}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:list,data-th-list}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:hreflang,data-th-hreflang}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:accept,data-th-accept}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:contextmenu,data-th-contextmenu}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:codetype,data-th-codetype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:colspan,data-th-colspan}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:span,data-th-span}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:draggable,data-th-draggable}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:valuetype,data-th-valuetype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:http-equiv,data-th-http-equiv}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:optimum,data-th-optimum}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:accesskey,data-th-accesskey}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:formmethod,data-th-formmethod}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:radiogroup,data-th-radiogroup}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:label,data-th-label}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:dropzone,data-th-dropzone}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:target,data-th-target}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:scrolling,data-th-scrolling}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:accept-charset,data-th-accept-charset}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:marginheight,data-th-marginheight}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:rel,data-th-rel}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:formtarget,data-th-formtarget}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:cellpadding,data-th-cellpadding}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:spellcheck,data-th-spellcheck}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:step,data-th-step}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:scope,data-th-scope}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:tabindex,data-th-tabindex}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:rules,data-th-rules}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:usemap,data-th-usemap}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:rows,data-th-rows}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:start,data-th-start}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:data,data-th-data}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:longdesc,data-th-longdesc}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:sandbox,data-th-sandbox}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:headers,data-th-headers}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:min,data-th-min}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:marginwidth,data-th-marginwidth}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:content,data-th-content}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:alt,data-th-alt}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:rowspan,data-th-rowspan}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:preload,data-th-preload}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:charset,data-th-charset}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:hspace,data-th-hspace}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:form,data-th-form}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:class,data-th-class}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:width,data-th-width}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:lang,data-th-lang}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:background,data-th-background}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:sizes,data-th-sizes}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:compact,data-th-compact}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:for,data-th-for}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:wrap,data-th-wrap}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:formenctype,data-th-formenctype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:manifest,data-th-manifest}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:max,data-th-max}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:height,data-th-height}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:dir,data-th-dir}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:summary,data-th-summary}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:style,data-th-style}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:cellspacing,data-th-cellspacing}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:cite,data-th-cite}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:id,data-th-id}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:pattern,data-th-pattern}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:datetime,data-th-datetime}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:align,data-th-align}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:media,data-th-media}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:scheme,data-th-scheme}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:audio,data-th-audio}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:border,data-th-border}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:keytype,data-th-keytype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:type,data-th-type}] [1000]: org.thymeleaf.standard.processor.StandardNonRemovableAttributeTagProcessor
 [THYMELEAF]             * [* {th:axis,data-th-axis}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:placeholder,data-th-placeholder}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:high,data-th-high}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:archive,data-th-archive}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:abbr,data-th-abbr}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:form,data-th-form}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:formaction,data-th-formaction}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:autocomplete,data-th-autocomplete}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
 [THYMELEAF]             * [* {th:maxlength,data-th-maxlength}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:contenteditable,data-th-contenteditable}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:srclang,data-th-srclang}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:poster,data-th-poster}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
-[THYMELEAF]             * [* {th:classid,data-th-classid}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:for,data-th-for}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rules,data-th-rules}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:tabindex,data-th-tabindex}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
 [THYMELEAF]             * [* {th:cols,data-th-cols}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:alt,data-th-alt}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rows,data-th-rows}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:placeholder,data-th-placeholder}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:accept-charset,data-th-accept-charset}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:formenctype,data-th-formenctype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rel,data-th-rel}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:radiogroup,data-th-radiogroup}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:step,data-th-step}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:classid,data-th-classid}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:longdesc,data-th-longdesc}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:size,data-th-size}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:target,data-th-target}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:max,data-th-max}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:optimum,data-th-optimum}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rowspan,data-th-rowspan}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:class,data-th-class}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:compact,data-th-compact}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:label,data-th-label}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:manifest,data-th-manifest}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:kind,data-th-kind}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:list,data-th-list}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:srclang,data-th-srclang}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:low,data-th-low}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:contenteditable,data-th-contenteditable}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:standby,data-th-standby}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:audio,data-th-audio}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:marginheight,data-th-marginheight}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:colspan,data-th-colspan}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:style,data-th-style}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:abbr,data-th-abbr}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:title,data-th-title}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:cellspacing,data-th-cellspacing}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:sizes,data-th-sizes}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:preload,data-th-preload}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:dir,data-th-dir}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:pattern,data-th-pattern}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:media,data-th-media}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:wrap,data-th-wrap}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:frame,data-th-frame}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:marginwidth,data-th-marginwidth}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:accept,data-th-accept}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:draggable,data-th-draggable}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:codetype,data-th-codetype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:keytype,data-th-keytype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:background,data-th-background}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:min,data-th-min}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:contextmenu,data-th-contextmenu}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:start,data-th-start}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:align,data-th-align}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:valuetype,data-th-valuetype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:cellpadding,data-th-cellpadding}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:cite,data-th-cite}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:challenge,data-th-challenge}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:spellcheck,data-th-spellcheck}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:id,data-th-id}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:bgcolor,data-th-bgcolor}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:data,data-th-data}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:border,data-th-border}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:scheme,data-th-scheme}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:formtarget,data-th-formtarget}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:codebase,data-th-codebase}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:headers,data-th-headers}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:width,data-th-width}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:high,data-th-high}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:enctype,data-th-enctype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:frameborder,data-th-frameborder}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:summary,data-th-summary}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:content,data-th-content}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:hreflang,data-th-hreflang}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:accesskey,data-th-accesskey}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:vspace,data-th-vspace}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:hspace,data-th-hspace}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:http-equiv,data-th-http-equiv}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:scrolling,data-th-scrolling}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:height,data-th-height}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:span,data-th-span}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rev,data-th-rev}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:sandbox,data-th-sandbox}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:formmethod,data-th-formmethod}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:dropzone,data-th-dropzone}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:poster,data-th-poster}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:usemap,data-th-usemap}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:lang,data-th-lang}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:datetime,data-th-datetime}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:charset,data-th-charset}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:scope,data-th-scope}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:archive,data-th-archive}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:icon,data-th-icon}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
 [THYMELEAF]             * [* {th:xmlbase,data-th-xmlbase}] [1000]: org.thymeleaf.standard.processor.StandardXmlBaseTagProcessor
 [THYMELEAF]             * [* {th:xmllang,data-th-xmllang}] [1000]: org.thymeleaf.standard.processor.StandardXmlLangTagProcessor
 [THYMELEAF]             * [* {xmlns:th}] [1000]: org.thymeleaf.standard.processor.StandardXmlNsTagProcessor
@@ -435,8 +438,8 @@
 [THYMELEAF]             * [* {th:utext}] [1400]: org.thymeleaf.standard.processor.StandardUtextTagProcessor
 [THYMELEAF]             * [* {th:assert}] [1550]: org.thymeleaf.standard.processor.StandardAssertTagProcessor
 [THYMELEAF]             * [* {th:remove}] [1600]: org.thymeleaf.standard.processor.StandardRemoveTagProcessor
-[THYMELEAF]             * [* 100000] [org.thymeleaf.standard.processor.StandardBlockTagProcessor]: {}
 [THYMELEAF]             * [{th:block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
+[THYMELEAF]             * [* 100000] [org.thymeleaf.standard.processor.StandardBlockTagProcessor]: {}
 [THYMELEAF]         * Text Processors by [precedence]:
 [THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningTextProcessor
 [THYMELEAF]     * Processors for Template Mode: JAVASCRIPT
@@ -455,8 +458,8 @@
 [THYMELEAF]             * [* {th:utext}] [1400]: org.thymeleaf.standard.processor.StandardUtextTagProcessor
 [THYMELEAF]             * [* {th:assert}] [1550]: org.thymeleaf.standard.processor.StandardAssertTagProcessor
 [THYMELEAF]             * [* {th:remove}] [1600]: org.thymeleaf.standard.processor.StandardRemoveTagProcessor
-[THYMELEAF]             * [{th:block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
 [THYMELEAF]             * [* 100000] [org.thymeleaf.standard.processor.StandardBlockTagProcessor]: {}
+[THYMELEAF]             * [{th:block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
 [THYMELEAF]         * Text Processors by [precedence]:
 [THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningTextProcessor
 [THYMELEAF]     * Processors for Template Mode: CSS
@@ -475,8 +478,8 @@
 [THYMELEAF]             * [* {th:utext}] [1400]: org.thymeleaf.standard.processor.StandardUtextTagProcessor
 [THYMELEAF]             * [* {th:assert}] [1550]: org.thymeleaf.standard.processor.StandardAssertTagProcessor
 [THYMELEAF]             * [* {th:remove}] [1600]: org.thymeleaf.standard.processor.StandardRemoveTagProcessor
-[THYMELEAF]             * [{th:block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
 [THYMELEAF]             * [* 100000] [org.thymeleaf.standard.processor.StandardBlockTagProcessor]: {}
+[THYMELEAF]             * [{th:block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
 [THYMELEAF]         * Text Processors by [precedence]:
 [THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningTextProcessor
 [THYMELEAF]     * Expression Objects:
@@ -513,81 +516,74 @@
 [THYMELEAF]         * #requestdatavalues
 [THYMELEAF]     * Execution Attributes:
 [THYMELEAF]         * "StandardExpressionParser": Standard Expression Parser
-[THYMELEAF]         * "StandardJavaScriptSerializer": org.thymeleaf.standard.serializer.StandardJavaScriptSerializer@19766bec
-[THYMELEAF]         * "StandardCSSSerializer": org.thymeleaf.standard.serializer.StandardCSSSerializer@2488d67f
+[THYMELEAF]         * "StandardJavaScriptSerializer": org.thymeleaf.standard.serializer.StandardJavaScriptSerializer@594217ac
+[THYMELEAF]         * "StandardCSSSerializer": org.thymeleaf.standard.serializer.StandardCSSSerializer@57ad0489
 [THYMELEAF]         * "EnableSpringELCompiler": false
 [THYMELEAF]         * "StandardVariableExpressionEvaluator": SpringEL
-[THYMELEAF]         * "StandardConversionService": org.thymeleaf.spring5.expression.SpringStandardConversionService@20a3b4a0
+[THYMELEAF]         * "StandardConversionService": org.thymeleaf.spring5.expression.SpringStandardConversionService@2cfbce5d
 [THYMELEAF] * Dialect [2 of 2]: java8time (org.thymeleaf.extras.java8time.dialect.Java8TimeDialect)
 [THYMELEAF]     * Expression Objects:
 [THYMELEAF]         * #temporals
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
-[ DEBUG ] 2019-05-02 18:07:36 [ http-nio-8082-exec-1:18929 ] [org.thymeleaf.TemplateEngine.initialize(TemplateEngine.java:348)] [THYMELEAF] TEMPLATE ENGINE INITIALIZED
-[ TRACE ] 2019-05-02 18:07:36 [ http-nio-8082-exec-1:18938 ] [org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1091)] [THYMELEAF][http-nio-8082-exec-1] STARTING PROCESS OF TEMPLATE "/base/baseIndex" WITH LOCALE zh_CN
-[ TRACE ] 2019-05-02 18:07:36 [ http-nio-8082-exec-1:18940 ] [org.thymeleaf.cache.StandardCache.get(StandardCache.java:178)] [THYMELEAF][http-nio-8082-exec-1][TEMPLATE_CACHE][CACHE_MISS] Cache miss in cache "TEMPLATE_CACHE" for key "/base/baseIndex".
-[ TRACE ] 2019-05-02 18:07:36 [ http-nio-8082-exec-1:18942 ] [org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:848)] [THYMELEAF][http-nio-8082-exec-1] Template resolver match! Resolver "org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver" will resolve template "/base/baseIndex"
-[ TRACE ] 2019-05-02 18:07:36 [ http-nio-8082-exec-1:19034 ] [org.thymeleaf.cache.StandardCache.<init>(StandardCache.java:129)] [THYMELEAF][CACHE_INITIALIZE] Initializing cache EXPRESSION_CACHE. Max size: 500. Soft references are used.
-[ TRACE ] 2019-05-02 18:07:36 [ http-nio-8082-exec-1:19036 ] [org.thymeleaf.cache.StandardCache.get(StandardCache.java:178)] [THYMELEAF][http-nio-8082-exec-1][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|@{/css/bootstrap.min.css}".
-[ TRACE ] 2019-05-02 18:07:36 [ http-nio-8082-exec-1:19071 ] [org.thymeleaf.cache.StandardCache.put(StandardCache.java:153)] [THYMELEAF][http-nio-8082-exec-1][EXPRESSION_CACHE][CACHE_ADD][1] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|@{/css/bootstrap.min.css}". New size is 1.
-[ TRACE ] 2019-05-02 18:07:36 [ http-nio-8082-exec-1:19074 ] [org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:246)] [THYMELEAF][http-nio-8082-exec-1] Evaluating link: "@{'/css/bootstrap.min.css'}"
-[ TRACE ] 2019-05-02 18:07:36 [ http-nio-8082-exec-1:19074 ] [org.thymeleaf.standard.expression.TextLiteralExpression.executeTextLiteralExpression(TextLiteralExpression.java:103)] [THYMELEAF][http-nio-8082-exec-1] Evaluating text literal: "'/css/bootstrap.min.css'"
-[ TRACE ] 2019-05-02 18:07:37 [ http-nio-8082-exec-1:19184 ] [org.thymeleaf.cache.StandardCache.get(StandardCache.java:178)] [THYMELEAF][http-nio-8082-exec-1][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|@{/js/jquery-3.4.1.min.js}".
-[ TRACE ] 2019-05-02 18:07:37 [ http-nio-8082-exec-1:19185 ] [org.thymeleaf.cache.StandardCache.put(StandardCache.java:153)] [THYMELEAF][http-nio-8082-exec-1][EXPRESSION_CACHE][CACHE_ADD][2] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|@{/js/jquery-3.4.1.min.js}". New size is 2.
-[ TRACE ] 2019-05-02 18:07:37 [ http-nio-8082-exec-1:19185 ] [org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:246)] [THYMELEAF][http-nio-8082-exec-1] Evaluating link: "@{'/js/jquery-3.4.1.min.js'}"
-[ TRACE ] 2019-05-02 18:07:37 [ http-nio-8082-exec-1:19186 ] [org.thymeleaf.standard.expression.TextLiteralExpression.executeTextLiteralExpression(TextLiteralExpression.java:103)] [THYMELEAF][http-nio-8082-exec-1] Evaluating text literal: "'/js/jquery-3.4.1.min.js'"
-[ TRACE ] 2019-05-02 18:07:37 [ http-nio-8082-exec-1:19188 ] [org.thymeleaf.cache.StandardCache.get(StandardCache.java:178)] [THYMELEAF][http-nio-8082-exec-1][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|@{https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js}".
-[ TRACE ] 2019-05-02 18:07:37 [ http-nio-8082-exec-1:19189 ] [org.thymeleaf.cache.StandardCache.put(StandardCache.java:153)] [THYMELEAF][http-nio-8082-exec-1][EXPRESSION_CACHE][CACHE_ADD][3] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|@{https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js}". New size is 3.
-[ TRACE ] 2019-05-02 18:07:37 [ http-nio-8082-exec-1:19190 ] [org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:246)] [THYMELEAF][http-nio-8082-exec-1] Evaluating link: "@{'https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js'}"
-[ TRACE ] 2019-05-02 18:07:37 [ http-nio-8082-exec-1:19190 ] [org.thymeleaf.standard.expression.TextLiteralExpression.executeTextLiteralExpression(TextLiteralExpression.java:103)] [THYMELEAF][http-nio-8082-exec-1] Evaluating text literal: "'https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js'"
-[ TRACE ] 2019-05-02 18:07:37 [ http-nio-8082-exec-1:19192 ] [org.thymeleaf.cache.StandardCache.get(StandardCache.java:178)] [THYMELEAF][http-nio-8082-exec-1][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|@{/js/bootstrap.min.js}".
-[ TRACE ] 2019-05-02 18:07:37 [ http-nio-8082-exec-1:19193 ] [org.thymeleaf.cache.StandardCache.put(StandardCache.java:153)] [THYMELEAF][http-nio-8082-exec-1][EXPRESSION_CACHE][CACHE_ADD][4] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|@{/js/bootstrap.min.js}". New size is 4.
-[ TRACE ] 2019-05-02 18:07:37 [ http-nio-8082-exec-1:19194 ] [org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:246)] [THYMELEAF][http-nio-8082-exec-1] Evaluating link: "@{'/js/bootstrap.min.js'}"
-[ TRACE ] 2019-05-02 18:07:37 [ http-nio-8082-exec-1:19195 ] [org.thymeleaf.standard.expression.TextLiteralExpression.executeTextLiteralExpression(TextLiteralExpression.java:103)] [THYMELEAF][http-nio-8082-exec-1] Evaluating text literal: "'/js/bootstrap.min.js'"
-[ TRACE ] 2019-05-02 18:07:37 [ http-nio-8082-exec-1:19196 ] [org.thymeleaf.cache.StandardCache.get(StandardCache.java:178)] [THYMELEAF][http-nio-8082-exec-1][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|@{/js/base/base.js}".
-[ TRACE ] 2019-05-02 18:07:37 [ http-nio-8082-exec-1:19196 ] [org.thymeleaf.cache.StandardCache.put(StandardCache.java:153)] [THYMELEAF][http-nio-8082-exec-1][EXPRESSION_CACHE][CACHE_ADD][5] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|@{/js/base/base.js}". New size is 5.
-[ TRACE ] 2019-05-02 18:07:37 [ http-nio-8082-exec-1:19197 ] [org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:246)] [THYMELEAF][http-nio-8082-exec-1] Evaluating link: "@{'/js/base/base.js'}"
-[ TRACE ] 2019-05-02 18:07:37 [ http-nio-8082-exec-1:19197 ] [org.thymeleaf.standard.expression.TextLiteralExpression.executeTextLiteralExpression(TextLiteralExpression.java:103)] [THYMELEAF][http-nio-8082-exec-1] Evaluating text literal: "'/js/base/base.js'"
-[ TRACE ] 2019-05-02 18:07:37 [ http-nio-8082-exec-1:19199 ] [org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)] [THYMELEAF][http-nio-8082-exec-1] FINISHED PROCESS AND OUTPUT OF TEMPLATE "/base/baseIndex" WITH LOCALE zh_CN
-[ TRACE ] 2019-05-02 18:07:37 [ http-nio-8082-exec-1:19199 ] [org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1110)] [THYMELEAF][http-nio-8082-exec-1][/base/baseIndex][zh_CN][259456585][259] TEMPLATE "/base/baseIndex" WITH LOCALE zh_CN PROCESSED IN 259456585 nanoseconds (approx. 259ms)
-[ TRACE ] 2019-05-02 18:07:46 [ http-nio-8082-exec-6:28591 ] [org.thymeleaf.spring5.view.ThymeleafViewResolver.createView(ThymeleafViewResolver.java:794)] [THYMELEAF] View /base/baseIndex will be handled by ThymeleafViewResolver and a ThymeleafView instance will be created for it
-[ TRACE ] 2019-05-02 18:07:46 [ http-nio-8082-exec-6:28592 ] [org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1091)] [THYMELEAF][http-nio-8082-exec-6] STARTING PROCESS OF TEMPLATE "/base/baseIndex" WITH LOCALE zh_CN
-[ TRACE ] 2019-05-02 18:07:46 [ http-nio-8082-exec-6:28592 ] [org.thymeleaf.cache.StandardCache.get(StandardCache.java:178)] [THYMELEAF][http-nio-8082-exec-6][TEMPLATE_CACHE][CACHE_MISS] Cache miss in cache "TEMPLATE_CACHE" for key "/base/baseIndex".
-[ TRACE ] 2019-05-02 18:07:46 [ http-nio-8082-exec-6:28593 ] [org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:848)] [THYMELEAF][http-nio-8082-exec-6] Template resolver match! Resolver "org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver" will resolve template "/base/baseIndex"
-[ TRACE ] 2019-05-02 18:07:46 [ http-nio-8082-exec-6:28594 ] [org.thymeleaf.cache.StandardCache.get(StandardCache.java:205)] [THYMELEAF][http-nio-8082-exec-6][EXPRESSION_CACHE][CACHE_HIT] Cache hit in cache "EXPRESSION_CACHE" for key "expr|@{/css/bootstrap.min.css}".
-[ TRACE ] 2019-05-02 18:07:46 [ http-nio-8082-exec-6:28594 ] [org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:246)] [THYMELEAF][http-nio-8082-exec-6] Evaluating link: "@{'/css/bootstrap.min.css'}"
-[ TRACE ] 2019-05-02 18:07:46 [ http-nio-8082-exec-6:28595 ] [org.thymeleaf.standard.expression.TextLiteralExpression.executeTextLiteralExpression(TextLiteralExpression.java:103)] [THYMELEAF][http-nio-8082-exec-6] Evaluating text literal: "'/css/bootstrap.min.css'"
-[ TRACE ] 2019-05-02 18:07:46 [ http-nio-8082-exec-6:28596 ] [org.thymeleaf.cache.StandardCache.get(StandardCache.java:205)] [THYMELEAF][http-nio-8082-exec-6][EXPRESSION_CACHE][CACHE_HIT] Cache hit in cache "EXPRESSION_CACHE" for key "expr|@{/js/jquery-3.4.1.min.js}".
-[ TRACE ] 2019-05-02 18:07:46 [ http-nio-8082-exec-6:28596 ] [org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:246)] [THYMELEAF][http-nio-8082-exec-6] Evaluating link: "@{'/js/jquery-3.4.1.min.js'}"
-[ TRACE ] 2019-05-02 18:07:46 [ http-nio-8082-exec-6:28596 ] [org.thymeleaf.standard.expression.TextLiteralExpression.executeTextLiteralExpression(TextLiteralExpression.java:103)] [THYMELEAF][http-nio-8082-exec-6] Evaluating text literal: "'/js/jquery-3.4.1.min.js'"
-[ TRACE ] 2019-05-02 18:07:46 [ http-nio-8082-exec-6:28597 ] [org.thymeleaf.cache.StandardCache.get(StandardCache.java:205)] [THYMELEAF][http-nio-8082-exec-6][EXPRESSION_CACHE][CACHE_HIT] Cache hit in cache "EXPRESSION_CACHE" for key "expr|@{https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js}".
-[ TRACE ] 2019-05-02 18:07:46 [ http-nio-8082-exec-6:28597 ] [org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:246)] [THYMELEAF][http-nio-8082-exec-6] Evaluating link: "@{'https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js'}"
-[ TRACE ] 2019-05-02 18:07:46 [ http-nio-8082-exec-6:28597 ] [org.thymeleaf.standard.expression.TextLiteralExpression.executeTextLiteralExpression(TextLiteralExpression.java:103)] [THYMELEAF][http-nio-8082-exec-6] Evaluating text literal: "'https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js'"
-[ TRACE ] 2019-05-02 18:07:46 [ http-nio-8082-exec-6:28598 ] [org.thymeleaf.cache.StandardCache.get(StandardCache.java:205)] [THYMELEAF][http-nio-8082-exec-6][EXPRESSION_CACHE][CACHE_HIT] Cache hit in cache "EXPRESSION_CACHE" for key "expr|@{/js/bootstrap.min.js}".
-[ TRACE ] 2019-05-02 18:07:46 [ http-nio-8082-exec-6:28598 ] [org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:246)] [THYMELEAF][http-nio-8082-exec-6] Evaluating link: "@{'/js/bootstrap.min.js'}"
-[ TRACE ] 2019-05-02 18:07:46 [ http-nio-8082-exec-6:28598 ] [org.thymeleaf.standard.expression.TextLiteralExpression.executeTextLiteralExpression(TextLiteralExpression.java:103)] [THYMELEAF][http-nio-8082-exec-6] Evaluating text literal: "'/js/bootstrap.min.js'"
-[ TRACE ] 2019-05-02 18:07:46 [ http-nio-8082-exec-6:28598 ] [org.thymeleaf.cache.StandardCache.get(StandardCache.java:205)] [THYMELEAF][http-nio-8082-exec-6][EXPRESSION_CACHE][CACHE_HIT] Cache hit in cache "EXPRESSION_CACHE" for key "expr|@{/js/base/base.js}".
-[ TRACE ] 2019-05-02 18:07:46 [ http-nio-8082-exec-6:28599 ] [org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:246)] [THYMELEAF][http-nio-8082-exec-6] Evaluating link: "@{'/js/base/base.js'}"
-[ TRACE ] 2019-05-02 18:07:46 [ http-nio-8082-exec-6:28599 ] [org.thymeleaf.standard.expression.TextLiteralExpression.executeTextLiteralExpression(TextLiteralExpression.java:103)] [THYMELEAF][http-nio-8082-exec-6] Evaluating text literal: "'/js/base/base.js'"
-[ TRACE ] 2019-05-02 18:07:46 [ http-nio-8082-exec-6:28601 ] [org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)] [THYMELEAF][http-nio-8082-exec-6] FINISHED PROCESS AND OUTPUT OF TEMPLATE "/base/baseIndex" WITH LOCALE zh_CN
-[ TRACE ] 2019-05-02 18:07:46 [ http-nio-8082-exec-6:28601 ] [org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1110)] [THYMELEAF][http-nio-8082-exec-6][/base/baseIndex][zh_CN][8236240][8] TEMPLATE "/base/baseIndex" WITH LOCALE zh_CN PROCESSED IN 8236240 nanoseconds (approx. 8ms)
-[ TRACE ] 2019-05-02 18:08:05 [ http-nio-8082-exec-9:47945 ] [org.thymeleaf.spring5.view.ThymeleafViewResolver.createView(ThymeleafViewResolver.java:794)] [THYMELEAF] View /base/baseIndex will be handled by ThymeleafViewResolver and a ThymeleafView instance will be created for it
-[ TRACE ] 2019-05-02 18:08:05 [ http-nio-8082-exec-9:47946 ] [org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1091)] [THYMELEAF][http-nio-8082-exec-9] STARTING PROCESS OF TEMPLATE "/base/baseIndex" WITH LOCALE zh_CN
-[ TRACE ] 2019-05-02 18:08:05 [ http-nio-8082-exec-9:47947 ] [org.thymeleaf.cache.StandardCache.get(StandardCache.java:178)] [THYMELEAF][http-nio-8082-exec-9][TEMPLATE_CACHE][CACHE_MISS] Cache miss in cache "TEMPLATE_CACHE" for key "/base/baseIndex".
-[ TRACE ] 2019-05-02 18:08:05 [ http-nio-8082-exec-9:47947 ] [org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:848)] [THYMELEAF][http-nio-8082-exec-9] Template resolver match! Resolver "org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver" will resolve template "/base/baseIndex"
-[ TRACE ] 2019-05-02 18:08:05 [ http-nio-8082-exec-9:47949 ] [org.thymeleaf.cache.StandardCache.get(StandardCache.java:205)] [THYMELEAF][http-nio-8082-exec-9][EXPRESSION_CACHE][CACHE_HIT] Cache hit in cache "EXPRESSION_CACHE" for key "expr|@{/css/bootstrap.min.css}".
-[ TRACE ] 2019-05-02 18:08:05 [ http-nio-8082-exec-9:47950 ] [org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:246)] [THYMELEAF][http-nio-8082-exec-9] Evaluating link: "@{'/css/bootstrap.min.css'}"
-[ TRACE ] 2019-05-02 18:08:05 [ http-nio-8082-exec-9:47951 ] [org.thymeleaf.standard.expression.TextLiteralExpression.executeTextLiteralExpression(TextLiteralExpression.java:103)] [THYMELEAF][http-nio-8082-exec-9] Evaluating text literal: "'/css/bootstrap.min.css'"
-[ TRACE ] 2019-05-02 18:08:05 [ http-nio-8082-exec-9:47953 ] [org.thymeleaf.cache.StandardCache.get(StandardCache.java:205)] [THYMELEAF][http-nio-8082-exec-9][EXPRESSION_CACHE][CACHE_HIT] Cache hit in cache "EXPRESSION_CACHE" for key "expr|@{/js/jquery-3.4.1.min.js}".
-[ TRACE ] 2019-05-02 18:08:05 [ http-nio-8082-exec-9:47953 ] [org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:246)] [THYMELEAF][http-nio-8082-exec-9] Evaluating link: "@{'/js/jquery-3.4.1.min.js'}"
-[ TRACE ] 2019-05-02 18:08:05 [ http-nio-8082-exec-9:47954 ] [org.thymeleaf.standard.expression.TextLiteralExpression.executeTextLiteralExpression(TextLiteralExpression.java:103)] [THYMELEAF][http-nio-8082-exec-9] Evaluating text literal: "'/js/jquery-3.4.1.min.js'"
-[ TRACE ] 2019-05-02 18:08:05 [ http-nio-8082-exec-9:47954 ] [org.thymeleaf.cache.StandardCache.get(StandardCache.java:205)] [THYMELEAF][http-nio-8082-exec-9][EXPRESSION_CACHE][CACHE_HIT] Cache hit in cache "EXPRESSION_CACHE" for key "expr|@{https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js}".
-[ TRACE ] 2019-05-02 18:08:05 [ http-nio-8082-exec-9:47955 ] [org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:246)] [THYMELEAF][http-nio-8082-exec-9] Evaluating link: "@{'https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js'}"
-[ TRACE ] 2019-05-02 18:08:05 [ http-nio-8082-exec-9:47955 ] [org.thymeleaf.standard.expression.TextLiteralExpression.executeTextLiteralExpression(TextLiteralExpression.java:103)] [THYMELEAF][http-nio-8082-exec-9] Evaluating text literal: "'https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js'"
-[ TRACE ] 2019-05-02 18:08:05 [ http-nio-8082-exec-9:47956 ] [org.thymeleaf.cache.StandardCache.get(StandardCache.java:205)] [THYMELEAF][http-nio-8082-exec-9][EXPRESSION_CACHE][CACHE_HIT] Cache hit in cache "EXPRESSION_CACHE" for key "expr|@{/js/bootstrap.min.js}".
-[ TRACE ] 2019-05-02 18:08:05 [ http-nio-8082-exec-9:47956 ] [org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:246)] [THYMELEAF][http-nio-8082-exec-9] Evaluating link: "@{'/js/bootstrap.min.js'}"
-[ TRACE ] 2019-05-02 18:08:05 [ http-nio-8082-exec-9:47957 ] [org.thymeleaf.standard.expression.TextLiteralExpression.executeTextLiteralExpression(TextLiteralExpression.java:103)] [THYMELEAF][http-nio-8082-exec-9] Evaluating text literal: "'/js/bootstrap.min.js'"
-[ TRACE ] 2019-05-02 18:08:05 [ http-nio-8082-exec-9:47957 ] [org.thymeleaf.cache.StandardCache.get(StandardCache.java:205)] [THYMELEAF][http-nio-8082-exec-9][EXPRESSION_CACHE][CACHE_HIT] Cache hit in cache "EXPRESSION_CACHE" for key "expr|@{/js/base/base.js}".
-[ TRACE ] 2019-05-02 18:08:05 [ http-nio-8082-exec-9:47958 ] [org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:246)] [THYMELEAF][http-nio-8082-exec-9] Evaluating link: "@{'/js/base/base.js'}"
-[ TRACE ] 2019-05-02 18:08:05 [ http-nio-8082-exec-9:47958 ] [org.thymeleaf.standard.expression.TextLiteralExpression.executeTextLiteralExpression(TextLiteralExpression.java:103)] [THYMELEAF][http-nio-8082-exec-9] Evaluating text literal: "'/js/base/base.js'"
-[ TRACE ] 2019-05-02 18:08:05 [ http-nio-8082-exec-9:47959 ] [org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)] [THYMELEAF][http-nio-8082-exec-9] FINISHED PROCESS AND OUTPUT OF TEMPLATE "/base/baseIndex" WITH LOCALE zh_CN
-[ TRACE ] 2019-05-02 18:08:05 [ http-nio-8082-exec-9:47959 ] [org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1110)] [THYMELEAF][http-nio-8082-exec-9][/base/baseIndex][zh_CN][12134311][12] TEMPLATE "/base/baseIndex" WITH LOCALE zh_CN PROCESSED IN 12134311 nanoseconds (approx. 12ms)
+[ DEBUG ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38171 ] [org.thymeleaf.TemplateEngine.initialize(TemplateEngine.java:348)] [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38176 ] [org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1091)] [THYMELEAF][http-nio-80-exec-1] STARTING PROCESS OF TEMPLATE "/base/baseIndex" WITH LOCALE zh_CN
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38177 ] [org.thymeleaf.cache.StandardCache.get(StandardCache.java:178)] [THYMELEAF][http-nio-80-exec-1][TEMPLATE_CACHE][CACHE_MISS] Cache miss in cache "TEMPLATE_CACHE" for key "/base/baseIndex".
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38179 ] [org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:848)] [THYMELEAF][http-nio-80-exec-1] Template resolver match! Resolver "org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver" will resolve template "/base/baseIndex"
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38268 ] [org.thymeleaf.cache.StandardCache.<init>(StandardCache.java:129)] [THYMELEAF][CACHE_INITIALIZE] Initializing cache EXPRESSION_CACHE. Max size: 500. Soft references are used.
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38269 ] [org.thymeleaf.cache.StandardCache.get(StandardCache.java:178)] [THYMELEAF][http-nio-80-exec-1][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|@{/css/bootstrap.min.css}".
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38321 ] [org.thymeleaf.cache.StandardCache.put(StandardCache.java:153)] [THYMELEAF][http-nio-80-exec-1][EXPRESSION_CACHE][CACHE_ADD][1] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|@{/css/bootstrap.min.css}". New size is 1.
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38325 ] [org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:246)] [THYMELEAF][http-nio-80-exec-1] Evaluating link: "@{'/css/bootstrap.min.css'}"
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38326 ] [org.thymeleaf.standard.expression.TextLiteralExpression.executeTextLiteralExpression(TextLiteralExpression.java:103)] [THYMELEAF][http-nio-80-exec-1] Evaluating text literal: "'/css/bootstrap.min.css'"
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38432 ] [org.thymeleaf.cache.StandardCache.get(StandardCache.java:178)] [THYMELEAF][http-nio-80-exec-1][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|@{https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js}".
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38432 ] [org.thymeleaf.cache.StandardCache.put(StandardCache.java:153)] [THYMELEAF][http-nio-80-exec-1][EXPRESSION_CACHE][CACHE_ADD][2] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|@{https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js}". New size is 2.
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38433 ] [org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:246)] [THYMELEAF][http-nio-80-exec-1] Evaluating link: "@{'https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js'}"
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38433 ] [org.thymeleaf.standard.expression.TextLiteralExpression.executeTextLiteralExpression(TextLiteralExpression.java:103)] [THYMELEAF][http-nio-80-exec-1] Evaluating text literal: "'https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js'"
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38435 ] [org.thymeleaf.cache.StandardCache.get(StandardCache.java:178)] [THYMELEAF][http-nio-80-exec-1][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|@{/js/bootstrap.min.js}".
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38435 ] [org.thymeleaf.cache.StandardCache.put(StandardCache.java:153)] [THYMELEAF][http-nio-80-exec-1][EXPRESSION_CACHE][CACHE_ADD][3] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|@{/js/bootstrap.min.js}". New size is 3.
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38436 ] [org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:246)] [THYMELEAF][http-nio-80-exec-1] Evaluating link: "@{'/js/bootstrap.min.js'}"
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38436 ] [org.thymeleaf.standard.expression.TextLiteralExpression.executeTextLiteralExpression(TextLiteralExpression.java:103)] [THYMELEAF][http-nio-80-exec-1] Evaluating text literal: "'/js/bootstrap.min.js'"
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38436 ] [org.thymeleaf.cache.StandardCache.get(StandardCache.java:178)] [THYMELEAF][http-nio-80-exec-1][EXPRESSION_CACHE][CACHE_MISS] Cache miss in cache "EXPRESSION_CACHE" for key "expr|@{/js/base/base.js}".
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38437 ] [org.thymeleaf.cache.StandardCache.put(StandardCache.java:153)] [THYMELEAF][http-nio-80-exec-1][EXPRESSION_CACHE][CACHE_ADD][4] Adding cache entry in cache "EXPRESSION_CACHE" for key "expr|@{/js/base/base.js}". New size is 4.
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38437 ] [org.thymeleaf.standard.expression.LinkExpression.executeLinkExpression(LinkExpression.java:246)] [THYMELEAF][http-nio-80-exec-1] Evaluating link: "@{'/js/base/base.js'}"
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38437 ] [org.thymeleaf.standard.expression.TextLiteralExpression.executeTextLiteralExpression(TextLiteralExpression.java:103)] [THYMELEAF][http-nio-80-exec-1] Evaluating text literal: "'/js/base/base.js'"
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38439 ] [org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)] [THYMELEAF][http-nio-80-exec-1] FINISHED PROCESS AND OUTPUT OF TEMPLATE "/base/baseIndex" WITH LOCALE zh_CN
+[ TRACE ] 2019-05-05 17:09:42 [ http-nio-80-exec-1:38439 ] [org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1110)] [THYMELEAF][http-nio-80-exec-1][/base/baseIndex][zh_CN][262252539][262] TEMPLATE "/base/baseIndex" WITH LOCALE zh_CN PROCESSED IN 262252539 nanoseconds (approx. 262ms)
+[ INFO ] 2019-05-05 17:09:45 [ http-nio-80-exec-6:40858 ] [com.teavamc.transsocket.websocket.WbHandler.afterConnectionEstablished(WbHandler.java:34)] 正常日志：/0:0:0:0:0:0:0:1:2994打开连接！
+[ INFO ] 2019-05-05 17:09:45 [ http-nio-80-exec-6:40861 ] [com.teavamc.transsocket.websocket.WbHandler.handleMessage(WbHandler.java:40)] 日志信息：01
+[ TRACE ] 2019-05-05 17:09:45 [ http-nio-80-exec-6:40863 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@17e96180
+[ TRACE ] 2019-05-05 17:09:45 [ http-nio-80-exec-6:40864 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@68b6b55b
+[ TRACE ] 2019-05-05 17:09:45 [ http-nio-80-exec-6:40865 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@719ecd47
+[ TRACE ] 2019-05-05 17:09:45 [ http-nio-80-exec-6:40865 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@72084055
+[ TRACE ] 2019-05-05 17:09:45 [ http-nio-80-exec-6:40866 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2eb1caf5
+[ TRACE ] 2019-05-05 17:09:45 [ http-nio-80-exec-6:40867 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@73f0be15
+[ TRACE ] 2019-05-05 17:09:45 [ http-nio-80-exec-6:40868 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7483b1d9
+[ TRACE ] 2019-05-05 17:09:45 [ http-nio-80-exec-6:40869 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@44b94df4
+[ TRACE ] 2019-05-05 17:09:45 [ http-nio-80-exec-6:40870 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@64ffd1f4
+[ TRACE ] 2019-05-05 17:09:45 [ http-nio-80-exec-6:40871 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1209cb68
+[ TRACE ] 2019-05-05 17:09:45 [ http-nio-80-exec-6:40871 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7bedad89
+[ TRACE ] 2019-05-05 17:09:45 [ http-nio-80-exec-6:40872 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@753599ed
+[ TRACE ] 2019-05-05 17:09:45 [ http-nio-80-exec-6:40873 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6fdf96ce
+[ TRACE ] 2019-05-05 17:09:45 [ http-nio-80-exec-6:40874 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@335152d6
+[ TRACE ] 2019-05-05 17:09:45 [ http-nio-80-exec-6:40875 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@25c630d0
+[ TRACE ] 2019-05-05 17:09:45 [ http-nio-80-exec-6:40875 ] [io.netty.channel.nio.NioEventLoop.openSelector(NioEventLoop.java:254)] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7ce53f74
+[ INFO ] 2019-05-05 17:09:45 [ http-nio-80-exec-6:40901 ] [com.teavamc.transsocket.client.TcpClient.getChannel(TcpClient.java:58)] TCP Client 已经在127.0.0.1的8888端口建立Channel
+[ DEBUG ] 2019-05-05 17:09:45 [ http-nio-80-exec-6:40906 ] [io.netty.util.Recycler.<clinit>(Recycler.java:96)] -Dio.netty.recycler.maxCapacityPerThread: 4096
+[ DEBUG ] 2019-05-05 17:09:45 [ http-nio-80-exec-6:40906 ] [io.netty.util.Recycler.<clinit>(Recycler.java:97)] -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[ DEBUG ] 2019-05-05 17:09:45 [ http-nio-80-exec-6:40906 ] [io.netty.util.Recycler.<clinit>(Recycler.java:98)] -Dio.netty.recycler.linkCapacity: 16
+[ DEBUG ] 2019-05-05 17:09:45 [ http-nio-80-exec-6:40906 ] [io.netty.util.Recycler.<clinit>(Recycler.java:99)] -Dio.netty.recycler.ratio: 8
+[ DEBUG ] 2019-05-05 17:09:45 [ nioEventLoopGroup-6-1:40919 ] [io.netty.buffer.AbstractByteBuf.<clinit>(AbstractByteBuf.java:62)] -Dio.netty.buffer.checkAccessible: true
+[ DEBUG ] 2019-05-05 17:09:45 [ nioEventLoopGroup-6-1:40919 ] [io.netty.buffer.AbstractByteBuf.<clinit>(AbstractByteBuf.java:63)] -Dio.netty.buffer.checkBounds: true
+[ DEBUG ] 2019-05-05 17:09:45 [ nioEventLoopGroup-6-1:40919 ] [io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory.newResourceLeakDetector(ResourceLeakDetectorFactory.java:202)] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4357586f
+[ INFO ] 2019-05-05 17:09:45 [ http-nio-80-exec-6:40926 ] [com.teavamc.transsocket.websocket.WbHandler.sendCMDtoSocket(WbHandler.java:63)] TCP Client发送消息01
+[ INFO ] 2019-05-05 17:09:45 [ nioEventLoopGroup-5-1:40927 ] [com.teavamc.transsocket.server.TcpServerHandler.channelRead0(TcpServerHandler.java:29)] TCP Server 收到开启风扇的指令：01
+[ INFO ] 2019-05-05 17:09:45 [ nioEventLoopGroup-6-1:40928 ] [com.teavamc.transsocket.client.TcpClientHandler.channelRead0(TcpClientHandler.java:21)] TCP Client接收的消息:单片机已经开启风扇
+[ INFO ] 2019-05-05 17:09:47 [ http-nio-80-exec-3:42626 ] [com.teavamc.transsocket.websocket.WbHandler.afterConnectionEstablished(WbHandler.java:34)] 正常日志：/0:0:0:0:0:0:0:1:3033打开连接！
+[ INFO ] 2019-05-05 17:09:47 [ http-nio-80-exec-4:42628 ] [com.teavamc.transsocket.websocket.WbHandler.handleMessage(WbHandler.java:40)] 日志信息：02
+[ INFO ] 2019-05-05 17:09:47 [ nioEventLoopGroup-5-1:42631 ] [com.teavamc.transsocket.server.TcpServerHandler.channelRead0(TcpServerHandler.java:32)] TCP Server 收到开启洒水的指令：02
+[ INFO ] 2019-05-05 17:09:47 [ http-nio-80-exec-4:42631 ] [com.teavamc.transsocket.websocket.WbHandler.sendCMDtoSocket(WbHandler.java:63)] TCP Client发送消息02
+[ INFO ] 2019-05-05 17:09:47 [ nioEventLoopGroup-6-1:42632 ] [com.teavamc.transsocket.client.TcpClientHandler.channelRead0(TcpClientHandler.java:21)] TCP Client接收的消息:单片机已经执行洒水
+[ INFO ] 2019-05-05 17:09:52 [ http-nio-80-exec-7:48001 ] [com.teavamc.transsocket.websocket.WbHandler.afterConnectionEstablished(WbHandler.java:34)] 正常日志：/0:0:0:0:0:0:0:1:3045打开连接！
+[ INFO ] 2019-05-05 17:09:52 [ http-nio-80-exec-8:48003 ] [com.teavamc.transsocket.websocket.WbHandler.handleMessage(WbHandler.java:40)] 日志信息：03
+[ INFO ] 2019-05-05 17:09:52 [ nioEventLoopGroup-5-1:48004 ] [com.teavamc.transsocket.server.TcpServerHandler.channelRead0(TcpServerHandler.java:35)] 不明指令：03
+[ INFO ] 2019-05-05 17:09:52 [ http-nio-80-exec-8:48004 ] [com.teavamc.transsocket.websocket.WbHandler.sendCMDtoSocket(WbHandler.java:63)] TCP Client发送消息03
+[ INFO ] 2019-05-05 17:09:52 [ nioEventLoopGroup-6-1:48005 ] [com.teavamc.transsocket.client.TcpClientHandler.channelRead0(TcpClientHandler.java:21)] TCP Client接收的消息:指令错误，请检查

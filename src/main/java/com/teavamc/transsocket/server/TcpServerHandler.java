@@ -15,7 +15,11 @@ import org.apache.logging.log4j.Logger;
 public class TcpServerHandler extends SimpleChannelInboundHandler<Object> {
 
     private static Logger log = LogManager.getLogger(TcpServerHandler.class);
-    
+
+    private final String OPENFAN = "01";
+    private final String CLOSEFAN = "02";
+    private final String OPENAOTUFAN = "03";
+
     /**
         * @Description 打印接收到的内容，并回传
         * @author 张超 teavamc
@@ -25,12 +29,15 @@ public class TcpServerHandler extends SimpleChannelInboundHandler<Object> {
         */
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, Object msg) throws Exception {
-        if (msg.equals("01")){
+        if (OPENFAN.equals(msg)){
             log.info("TCP Server 收到开启风扇的指令：" + msg);
             ctx.channel().writeAndFlush("单片机已经开启风扇");
-        }else if(msg.equals("02")){
+        }else if(CLOSEFAN.equals(msg)){
             log.info("TCP Server 收到开启洒水的指令：" + msg);
-            ctx.channel().writeAndFlush("单片机已经执行洒水");
+            ctx.channel().writeAndFlush("单片机已经关闭风扇");
+        }else if(OPENAOTUFAN.equals(msg)){
+            log.info("TCP Server 收到开启洒水的指令：" + msg);
+            ctx.channel().writeAndFlush("单片机已经开启风扇摇头");
         }else {
             log.info("不明指令：" + msg);
             ctx.channel().writeAndFlush("指令错误，请检查");
