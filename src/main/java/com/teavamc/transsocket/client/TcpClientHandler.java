@@ -16,9 +16,19 @@ public class TcpClientHandler extends SimpleChannelInboundHandler<Object> {
 
     private static Logger log = LogManager.getLogger(TcpServerHandler.class);
 
+    private final String SUCCEED = "1";
+    private final String FAILED = "0";
+    private final String REC = "TCP Client接收的消息:";
+
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, Object msg) throws Exception {
-       log.info("TCP Client接收的消息:" + msg);
+        if (SUCCEED.equals(msg)){
+            log.info(REC + "成功");
+        }else if(FAILED.equals(msg)){
+            log.info(REC + "失败");
+        }else {
+            log.warn(REC + "Server回传的数据异常");
+        }
     }
 
 }

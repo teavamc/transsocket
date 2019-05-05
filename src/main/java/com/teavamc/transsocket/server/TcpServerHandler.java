@@ -19,6 +19,8 @@ public class TcpServerHandler extends SimpleChannelInboundHandler<Object> {
     private final String OPENFAN = "01";
     private final String CLOSEFAN = "02";
     private final String OPENAOTUFAN = "03";
+    private final String SUCCEED = "1";
+    private final String FAILED = "0";
 
     /**
         * @Description 打印接收到的内容，并回传
@@ -30,17 +32,17 @@ public class TcpServerHandler extends SimpleChannelInboundHandler<Object> {
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, Object msg) throws Exception {
         if (OPENFAN.equals(msg)){
-            log.info("TCP Server 收到开启风扇的指令：" + msg);
-            ctx.channel().writeAndFlush("单片机已经开启风扇");
+            log.info("TCP Server收到开启风扇的指令：" + msg);
+            ctx.channel().writeAndFlush(SUCCEED);
         }else if(CLOSEFAN.equals(msg)){
-            log.info("TCP Server 收到开启洒水的指令：" + msg);
-            ctx.channel().writeAndFlush("单片机已经关闭风扇");
+            log.info("TCP Server收到开启洒水的指令：" + msg);
+            ctx.channel().writeAndFlush(SUCCEED);
         }else if(OPENAOTUFAN.equals(msg)){
-            log.info("TCP Server 收到开启洒水的指令：" + msg);
-            ctx.channel().writeAndFlush("单片机已经开启风扇摇头");
+            log.info("TCP Server收到开启摇头的指令：" + msg);
+            ctx.channel().writeAndFlush(SUCCEED);
         }else {
             log.info("不明指令：" + msg);
-            ctx.channel().writeAndFlush("指令错误，请检查");
+            ctx.channel().writeAndFlush(FAILED);
         }
     }
 
